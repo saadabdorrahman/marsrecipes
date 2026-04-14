@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04192E"/>
+      <stop offset="55%" stop-color="#0A2E4A"/>
+      <stop offset="100%" stop-color="#1A5276"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#1A6BA0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#04192E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="salmon" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#F08060"/>
+      <stop offset="100%" stop-color="#C04A28"/>
+    </radialGradient>
+    <linearGradient id="glaze" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5A520"/>
+      <stop offset="100%" stop-color="#C07800"/>
+    </linearGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#04192E" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#04192E" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#04192E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Plate -->
+  <ellipse cx="400" cy="520" rx="300" ry="265" fill="#060E1A" opacity="0.95"/>
+  <ellipse cx="400" cy="520" rx="282" ry="248" fill="#0A1525"/>
+  <!-- Plate rim highlight -->
+  <ellipse cx="400" cy="520" rx="282" ry="248" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <!-- Salmon fillet main body -->
+  <path d="M175 480 Q195 420 280 405 Q370 390 460 400 Q560 412 600 450 Q640 488 620 540 Q600 585 530 598 Q440 612 340 600 Q240 588 200 555 Q165 522 175 480Z" fill="url(#salmon)"/>
+  <!-- Salmon flesh texture lines -->
+  <path d="M220 470 Q280 455 360 462 Q440 468 520 488" stroke="rgba(255,180,140,0.45)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M210 500 Q275 486 358 494 Q442 500 525 520" stroke="rgba(255,180,140,0.35)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M215 528 Q278 516 360 524 Q444 530 522 548" stroke="rgba(255,180,140,0.3)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Salmon skin edge -->
+  <path d="M175 480 Q190 435 250 418 Q190 425 175 480Z" fill="#A03020" opacity="0.8"/>
+  <!-- Honey garlic glaze drizzle -->
+  <path d="M240 430 Q310 415 400 422 Q485 428 555 445 Q595 455 615 472" stroke="url(#glaze)" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M270 448 Q340 434 420 440 Q500 446 565 460" stroke="#F5C030" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.65"/>
+  <!-- Honey pools -->
+  <ellipse cx="360" cy="435" rx="28" ry="14" fill="#E8A018" opacity="0.8" transform="rotate(-8 360 435)"/>
+  <ellipse cx="450" cy="428" rx="22" ry="11" fill="#F0B520" opacity="0.75" transform="rotate(5 450 428)"/>
+  <ellipse cx="520" cy="445" rx="18" ry="9" fill="#E8A018" opacity="0.7"/>
+  <!-- Sesame seeds -->
+  <g fill="#F5F0E0" opacity="0.85">
+    <ellipse cx="308" cy="458" rx="4" ry="2" transform="rotate(-20 308 458)"/>
+    <ellipse cx="328" cy="452" rx="4" ry="2" transform="rotate(10 328 452)"/>
+    <ellipse cx="348" cy="465" rx="4" ry="2" transform="rotate(-5 348 465)"/>
+    <ellipse cx="368" cy="458" rx="4" ry="2" transform="rotate(15 368 458)"/>
+    <ellipse cx="388" cy="452" rx="4" ry="2" transform="rotate(-12 388 452)"/>
+    <ellipse cx="408" cy="462" rx="4" ry="2" transform="rotate(8 408 462)"/>
+    <ellipse cx="428" cy="455" rx="4" ry="2" transform="rotate(-18 428 455)"/>
+    <ellipse cx="448" cy="448" rx="4" ry="2" transform="rotate(5 448 448)"/>
+    <ellipse cx="468" cy="458" rx="4" ry="2" transform="rotate(-10 468 458)"/>
+  </g>
+  <!-- Lemon slice -->
+  <circle cx="568" cy="590" r="42" fill="#F5DC3C" opacity="0.9"/>
+  <circle cx="568" cy="590" r="34" fill="#F0D030" opacity="0.8"/>
+  <circle cx="568" cy="590" r="8" fill="#E8C820" opacity="0.9"/>
+  <line x1="568" y1="556" x2="568" y2="624" stroke="#D4B010" stroke-width="1.5" opacity="0.6"/>
+  <line x1="534" y1="573" x2="602" y2="607" stroke="#D4B010" stroke-width="1.5" opacity="0.6"/>
+  <line x1="534" y1="607" x2="602" y2="573" stroke="#D4B010" stroke-width="1.5" opacity="0.6"/>
+  <!-- Green onion slices -->
+  <g fill="#3A8A4A" opacity="0.88">
+    <circle cx="220" cy="596" r="7"/><circle cx="238" cy="606" r="6"/>
+    <circle cx="258" cy="598" r="7"/><circle cx="246" cy="590" r="5"/>
+  </g>
+  <!-- Text overlay -->
+  <rect x="0" y="690" width="800" height="510" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#1A6BA0" stroke-width="1.5" opacity="0.5"/>
+  <rect x="80" y="818" width="95" height="28" rx="14" fill="#1A6BA0"/>
+  <text x="128" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">SEAFOOD</text>
+  <text x="400" y="928" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Crispy Honey</text>
+  <text x="400" y="985" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Garlic Salmon</text>
+  <line x1="200" y1="1010" x2="600" y2="1010" stroke="#F5A520" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1052" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#F5A520" letter-spacing="0.5">⏱ 17 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

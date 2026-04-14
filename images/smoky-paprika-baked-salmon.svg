@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080A18"/>
+      <stop offset="50%" stop-color="#141C38"/>
+      <stop offset="100%" stop-color="#1E2C50"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#C04820" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#080A18" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="salmon" cx="25%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#E86840"/>
+      <stop offset="50%" stop-color="#D05030"/>
+      <stop offset="100%" stop-color="#8B2808"/>
+    </radialGradient>
+    <radialGradient id="rub" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#C03A10"/>
+      <stop offset="100%" stop-color="#7A1E04"/>
+    </radialGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080A18" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#080A18" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#080A18"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Baking sheet -->
+  <rect x="128" y="398" width="544" height="280" rx="16" fill="#121212" opacity="0.95"/>
+  <rect x="140" y="410" width="520" height="256" rx="12" fill="#1A1A1A"/>
+  <rect x="152" y="422" width="496" height="232" rx="8" fill="#222"/>
+  <!-- Sheet pan foil shimmer -->
+  <rect x="160" y="430" width="480" height="216" rx="6" fill="#282828" opacity="0.6"/>
+  <line x1="160" y1="448" x2="640" y2="448" stroke="#333" stroke-width="1" opacity="0.4"/>
+  <line x1="160" y1="476" x2="640" y2="476" stroke="#333" stroke-width="1" opacity="0.3"/>
+  <!-- Salmon fillet (main) -->
+  <path d="M185 470 Q220 445 320 448 Q420 451 520 462 Q580 468 595 490 Q605 510 585 530 Q565 548 480 552 Q380 555 285 548 Q200 540 178 515 Q165 495 185 470Z" fill="url(#salmon)"/>
+  <!-- Paprika rub layer -->
+  <path d="M192 476 Q226 453 322 456 Q418 459 514 470 Q568 476 580 495 Q588 512 570 530 Q550 546 468 549 Q370 552 278 545 Q196 537 182 514 Q172 496 192 476Z" fill="url(#rub)" opacity="0.65"/>
+  <!-- Salmon flesh texture lines -->
+  <g stroke="#F09060" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M220 488 Q280 480 340 484 Q400 488 455 484"/>
+    <path d="M218 502 Q278 495 338 498 Q398 502 453 498"/>
+    <path d="M222 516 Q280 510 340 513 Q398 517 450 513"/>
+  </g>
+  <!-- Paprika char spots -->
+  <g fill="#6A1A04" opacity="0.55">
+    <ellipse cx="250" cy="482" rx="18" ry="8" transform="rotate(-5 250 482)"/>
+    <ellipse cx="340" cy="475" rx="16" ry="7" transform="rotate(3 340 475)"/>
+    <ellipse cx="430" cy="478" rx="14" ry="7" transform="rotate(-2 430 478)"/>
+    <ellipse cx="510" cy="488" rx="12" ry="6" transform="rotate(5 510 488)"/>
+  </g>
+  <!-- Lemon wedges beside salmon -->
+  <path d="M605 500 Q625 480 645 492 Q658 505 645 524 Q630 538 610 530 Q595 520 605 500Z" fill="#F5DC3C" opacity="0.9"/>
+  <path d="M608 505 Q625 488 640 498 Q650 508 640 522 Q628 534 612 527 Q600 518 608 505Z" fill="#F0D030" opacity="0.85"/>
+  <line x1="624" y1="488" x2="622" y2="534" stroke="#D4B010" stroke-width="1.2" opacity="0.5"/>
+  <line x1="604" y1="510" x2="642" y2="510" stroke="#D4B010" stroke-width="1.2" opacity="0.5"/>
+  <!-- Asparagus spears -->
+  <g stroke="#2A6A1A" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.88">
+    <line x1="182" y1="558" x2="182" y2="628"/>
+    <line x1="198" y1="555" x2="198" y2="625"/>
+    <line x1="214" y1="558" x2="214" y2="628"/>
+    <line x1="230" y1="555" x2="230" y2="625"/>
+    <line x1="246" y1="558" x2="246" y2="628"/>
+  </g>
+  <!-- Asparagus tips -->
+  <g fill="#1E5A14" opacity="0.9">
+    <path d="M178 558 Q182 545 186 558Z"/>
+    <path d="M194 555 Q198 542 202 555Z"/>
+    <path d="M210 558 Q214 545 218 558Z"/>
+    <path d="M226 555 Q230 542 234 555Z"/>
+    <path d="M242 558 Q246 545 250 558Z"/>
+  </g>
+  <!-- Garlic cloves -->
+  <ellipse cx="565" cy="545" rx="20" ry="15" fill="#F5EDD5" opacity="0.88"/>
+  <ellipse cx="565" cy="543" rx="15" ry="11" fill="#EDE5C5" opacity="0.7"/>
+  <ellipse cx="595" cy="550" rx="16" ry="12" fill="#F5EDD5" opacity="0.82"/>
+  <!-- Olive oil sheen -->
+  <path d="M220 468 Q320 455 420 460 Q500 464 560 472" stroke="#D4A828" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- Smoke wisps -->
+  <path d="M290 395 Q282 362 294 335 Q302 312 292 288" stroke="rgba(200,100,40,0.2)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M390 388 Q382 355 394 328 Q402 305 392 280" stroke="rgba(200,100,40,0.16)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M490 392 Q482 360 494 333 Q502 310 492 286" stroke="rgba(200,100,40,0.14)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Text overlay -->
+  <rect x="0" y="695" width="800" height="505" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#1A4A8A" stroke-width="1.5" opacity="0.42"/>
+  <rect x="80" y="818" width="105" height="28" rx="14" fill="#1A6BA0"/>
+  <text x="132" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">SEAFOOD</text>
+  <text x="400" y="922" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="42" font-weight="bold" fill="white">Smoky Paprika</text>
+  <text x="400" y="978" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="42" font-weight="bold" fill="white">Baked Salmon</text>
+  <line x1="200" y1="1005" x2="600" y2="1005" stroke="#D4882A" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1048" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4882A" letter-spacing="0.5">⏱ 20 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

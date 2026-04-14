@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#100408"/>
+      <stop offset="50%" stop-color="#281018"/>
+      <stop offset="100%" stop-color="#501828"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="43%" r="52%">
+      <stop offset="0%" stop-color="#E02828" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#100408" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pan" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#1E1010"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </radialGradient>
+    <radialGradient id="shrimp" cx="25%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#F08060"/>
+      <stop offset="50%" stop-color="#E05838"/>
+      <stop offset="100%" stop-color="#B02818"/>
+    </radialGradient>
+    <radialGradient id="butter" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#F0C840"/>
+      <stop offset="100%" stop-color="#D4A020"/>
+    </radialGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#100408" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#100408" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#100408"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Cast iron pan shadow -->
+  <ellipse cx="400" cy="570" rx="298" ry="58" fill="#000" opacity="0.55"/>
+  <!-- Pan body -->
+  <ellipse cx="400" cy="520" rx="290" ry="262" fill="#0A0202" opacity="0.98"/>
+  <ellipse cx="400" cy="518" rx="275" ry="246" fill="url(#pan)"/>
+  <!-- Pan handle -->
+  <rect x="672" y="490" width="85" height="30" rx="15" fill="#141010"/>
+  <rect x="675" y="494" width="79" height="22" rx="11" fill="#1A1414"/>
+  <!-- Butter sauce pool -->
+  <ellipse cx="400" cy="535" rx="242" ry="195" fill="url(#butter)" opacity="0.75"/>
+  <ellipse cx="398" cy="530" rx="218" ry="172" fill="#E8C030" opacity="0.4"/>
+  <!-- Chili flakes in sauce -->
+  <g fill="#B01808" opacity="0.7">
+    <ellipse cx="320" cy="510" rx="5" ry="2.5" transform="rotate(-18 320 510)"/>
+    <ellipse cx="345" cy="498" rx="4.5" ry="2" transform="rotate(12 345 498)"/>
+    <ellipse cx="460" cy="505" rx="5" ry="2.5" transform="rotate(8 460 505)"/>
+    <ellipse cx="488" cy="518" rx="4" ry="2" transform="rotate(-15 488 518)"/>
+    <ellipse cx="398" cy="558" rx="5" ry="2.5" transform="rotate(5 398 558)"/>
+    <ellipse cx="358" cy="548" rx="4" ry="2" transform="rotate(-8 358 548)"/>
+    <ellipse cx="432" cy="545" rx="4.5" ry="2" transform="rotate(14 432 545)"/>
+  </g>
+  <!-- Shrimp 1 (top left) -->
+  <path d="M308 455 Q294 435 302 420 Q312 402 330 406 Q345 410 346 426 Q347 444 333 454 Q320 464 308 455Z" fill="url(#shrimp)"/>
+  <path d="M312 458 Q300 440 307 427 Q316 412 330 416 Q342 420 342 433 Q343 448 331 458 Q320 466 312 458Z" fill="#D05040" opacity="0.55"/>
+  <!-- Shrimp tail detail 1 -->
+  <path d="M300 457 Q292 448 296 440" stroke="#E07050" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Shrimp 2 (top center) -->
+  <path d="M378 445 Q364 425 372 410 Q382 392 400 396 Q415 400 416 416 Q417 434 403 444 Q390 455 378 445Z" fill="url(#shrimp)"/>
+  <path d="M382 448 Q370 430 377 417 Q386 402 400 406 Q412 410 412 423 Q413 438 401 448 Q390 457 382 448Z" fill="#D05040" opacity="0.55"/>
+  <!-- Shrimp 3 (top right) -->
+  <path d="M448 452 Q434 432 442 418 Q452 400 470 404 Q485 408 486 424 Q487 442 473 452 Q460 463 448 452Z" fill="url(#shrimp)"/>
+  <path d="M452 456 Q440 438 447 425 Q456 410 470 414 Q482 418 482 431 Q483 446 471 456 Q460 465 452 456Z" fill="#D05040" opacity="0.55"/>
+  <!-- Shrimp 4 (lower left) -->
+  <path d="M338 512 Q324 492 332 478 Q342 460 360 464 Q375 468 376 484 Q377 502 363 512 Q350 523 338 512Z" fill="url(#shrimp)"/>
+  <!-- Shrimp 5 (lower right) -->
+  <path d="M445 508 Q431 488 439 474 Q449 456 467 460 Q482 464 483 480 Q484 498 470 508 Q457 519 445 508Z" fill="url(#shrimp)"/>
+  <!-- Shrimp 6 (center bottom) -->
+  <path d="M392 552 Q378 532 386 518 Q396 500 414 504 Q429 508 430 524 Q431 542 417 552 Q404 563 392 552Z" fill="url(#shrimp)"/>
+  <!-- Garlic bits in sauce -->
+  <g fill="#F5EDD5" opacity="0.8">
+    <ellipse cx="356" cy="488" rx="8" ry="4" transform="rotate(-12 356 488)"/>
+    <ellipse cx="440" cy="483" rx="7" ry="3.5" transform="rotate(8 440 483)"/>
+    <ellipse cx="400" cy="572" rx="8" ry="4" transform="rotate(3 400 572)"/>
+    <ellipse cx="315" cy="538" rx="7" ry="3.5" transform="rotate(-8 315 538)"/>
+    <ellipse cx="476" cy="540" rx="6" ry="3" transform="rotate(12 476 540)"/>
+  </g>
+  <!-- Butter bubbles -->
+  <g fill="#F0D050" opacity="0.5">
+    <circle cx="342" cy="525" r="6"/>
+    <circle cx="460" cy="520" r="5"/>
+    <circle cx="400" cy="540" r="7"/>
+    <circle cx="360" cy="558" r="4.5"/>
+    <circle cx="432" cy="555" r="5.5"/>
+  </g>
+  <!-- Parsley garnish -->
+  <g fill="#2A6A3A" opacity="0.9">
+    <circle cx="388" cy="432" r="5"/>
+    <circle cx="400" cy="424" r="4.5"/>
+    <circle cx="410" cy="432" r="5"/>
+    <circle cx="393" cy="438" r="3.8"/>
+    <circle cx="418" cy="428" r="4.5"/>
+    <circle cx="426" cy="422" r="4.8"/>
+    <circle cx="382" cy="435" r="3.8"/>
+  </g>
+  <!-- Lemon wedge -->
+  <path d="M563 548 Q582 526 600 538 Q614 550 600 570 Q586 588 565 578 Q550 566 563 548Z" fill="#F5E040" opacity="0.92"/>
+  <path d="M567 552 Q582 534 596 544 Q606 553 596 568 Q584 582 567 573 Q554 563 567 552Z" fill="#EED028" opacity="0.8"/>
+  <line x1="582" y1="530" x2="580" y2="578" stroke="#D4B010" stroke-width="1.2" opacity="0.5"/>
+  <line x1="558" y1="556" x2="604" y2="556" stroke="#D4B010" stroke-width="1.2" opacity="0.5"/>
+  <!-- Sizzle steam -->
+  <path d="M335 408 Q327 374 340 346 Q348 324 338 299" stroke="rgba(255,80,20,0.22)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M400 400 Q392 366 404 338 Q411 315 402 290" stroke="rgba(255,80,20,0.18)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M465 406 Q457 372 469 344 Q476 322 467 296" stroke="rgba(255,80,20,0.16)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Text overlay -->
+  <rect x="0" y="695" width="800" height="505" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#C02028" stroke-width="1.5" opacity="0.42"/>
+  <rect x="80" y="818" width="105" height="28" rx="14" fill="#1A6BA0"/>
+  <text x="132" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">SEAFOOD</text>
+  <text x="400" y="922" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Spicy Garlic</text>
+  <text x="400" y="978" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Butter Shrimp</text>
+  <line x1="200" y1="1005" x2="600" y2="1005" stroke="#D4882A" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1048" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4882A" letter-spacing="0.5">⏱ 10 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

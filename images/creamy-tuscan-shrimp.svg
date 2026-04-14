@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0A00"/>
+      <stop offset="50%" stop-color="#3D1800"/>
+      <stop offset="100%" stop-color="#7A3010"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="43%" r="52%">
+      <stop offset="0%" stop-color="#C0522B" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#1A0A00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sauce" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#FFFAF0"/>
+      <stop offset="100%" stop-color="#F0DEC8"/>
+    </radialGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A0A00" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#1A0A00" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1A0A00"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Pan -->
+  <ellipse cx="400" cy="515" rx="308" ry="285" fill="#0A0500" opacity="0.97"/>
+  <ellipse cx="400" cy="515" rx="292" ry="268" fill="#120700"/>
+  <!-- Creamy sauce -->
+  <ellipse cx="400" cy="528" rx="252" ry="215" fill="url(#sauce)"/>
+  <ellipse cx="398" cy="524" rx="228" ry="192" fill="#FDF5E8" opacity="0.8"/>
+  <!-- Sun-dried tomatoes -->
+  <ellipse cx="310" cy="490" rx="22" ry="16" fill="#C03020" transform="rotate(-15 310 490)"/>
+  <ellipse cx="336" cy="508" rx="18" ry="13" fill="#D04030" transform="rotate(8 336 508)"/>
+  <ellipse cx="462" cy="486" rx="20" ry="15" fill="#C03020" transform="rotate(12 462 486)"/>
+  <ellipse cx="486" cy="510" rx="16" ry="12" fill="#D04030" transform="rotate(-10 486 510)"/>
+  <ellipse cx="390" cy="560" rx="19" ry="14" fill="#C03020" transform="rotate(5 390 560)"/>
+  <ellipse cx="415" cy="545" rx="17" ry="13" fill="#D04030" transform="rotate(-8 415 545)"/>
+  <!-- Spinach leaves -->
+  <g fill="#2A6A38" opacity="0.85">
+    <ellipse cx="278" cy="540" rx="24" ry="14" transform="rotate(-30 278 540)"/>
+    <ellipse cx="296" cy="555" rx="20" ry="12" transform="rotate(15 296 555)"/>
+    <ellipse cx="510" cy="535" rx="22" ry="13" transform="rotate(25 510 535)"/>
+    <ellipse cx="528" cy="552" rx="18" ry="11" transform="rotate(-20 528 552)"/>
+    <ellipse cx="360" cy="578" rx="20" ry="12" transform="rotate(10 360 578)"/>
+    <ellipse cx="440" cy="574" rx="18" ry="11" transform="rotate(-15 440 574)"/>
+  </g>
+  <!-- Shrimp 1 -->
+  <path d="M338 448 Q325 430 332 415 Q342 398 360 402 Q375 406 378 422 Q381 440 368 452 Q355 462 338 448Z" fill="#F07855"/>
+  <path d="M343 452 Q330 436 336 422 Q344 408 358 412 Q370 416 372 428 Q374 444 363 454 Q353 462 343 452Z" fill="#E06848" opacity="0.6"/>
+  <!-- Shrimp 2 -->
+  <path d="M402 440 Q390 422 398 408 Q408 392 426 396 Q440 400 442 416 Q444 434 430 445 Q418 456 402 440Z" fill="#F07855"/>
+  <path d="M407 444 Q396 428 402 415 Q410 400 424 404 Q436 408 437 422 Q439 438 427 448 Q417 456 407 444Z" fill="#E06848" opacity="0.6"/>
+  <!-- Shrimp 3 -->
+  <path d="M466 452 Q453 434 460 420 Q470 404 488 408 Q502 412 504 428 Q506 446 492 456 Q479 467 466 452Z" fill="#F07855"/>
+  <path d="M471 456 Q459 440 465 426 Q474 411 488 415 Q500 419 501 434 Q503 450 491 460 Q480 468 471 456Z" fill="#E06848" opacity="0.6"/>
+  <!-- Shrimp 4 - bottom -->
+  <path d="M360 518 Q346 500 354 486 Q364 470 382 474 Q396 478 398 494 Q400 512 386 522 Q373 533 360 518Z" fill="#F07855"/>
+  <!-- Shrimp 5 - bottom right -->
+  <path d="M435 512 Q422 494 430 480 Q440 464 458 468 Q472 472 474 488 Q476 506 462 516 Q449 527 435 512Z" fill="#F07855"/>
+  <!-- Cream sauce swirls -->
+  <path d="M292 510 Q340 495 400 504 Q455 513 500 498" stroke="#FFFFF8" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.65"/>
+  <path d="M305 530 Q352 518 405 526 Q455 534 494 520" stroke="#FFFFF8" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.45"/>
+  <!-- Garlic bits -->
+  <g fill="#F0EAD5" opacity="0.7">
+    <ellipse cx="348" cy="488" rx="7" ry="4" transform="rotate(-20 348 488)"/>
+    <ellipse cx="450" cy="482" rx="6" ry="3.5" transform="rotate(12 450 482)"/>
+    <ellipse cx="400" cy="570" rx="7" ry="4" transform="rotate(5 400 570)"/>
+  </g>
+  <!-- Steam -->
+  <path d="M355 400 Q349 370 359 344 Q365 324 357 302" stroke="rgba(255,255,255,0.2)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M410 393 Q404 362 414 335 Q420 314 412 291" stroke="rgba(255,255,255,0.16)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Text overlay -->
+  <rect x="0" y="690" width="800" height="510" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#C0522B" stroke-width="1.5" opacity="0.42"/>
+  <rect x="80" y="818" width="95" height="28" rx="14" fill="#1A6BA0"/>
+  <text x="128" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">SEAFOOD</text>
+  <text x="400" y="928" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="46" font-weight="bold" fill="white">Creamy Tuscan</text>
+  <text x="400" y="985" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="46" font-weight="bold" fill="white">Shrimp</text>
+  <line x1="200" y1="1010" x2="600" y2="1010" stroke="#D4882A" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1052" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4882A" letter-spacing="0.5">⏱ 20 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0E04"/>
+      <stop offset="50%" stop-color="#3A2010"/>
+      <stop offset="100%" stop-color="#6B4A28"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#A07040" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#1A0E04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kofta" cx="25%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#7A3808"/>
+      <stop offset="100%" stop-color="#3A1202"/>
+    </radialGradient>
+    <linearGradient id="plate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F0E8E0"/>
+    </linearGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A0E04" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#1A0E04" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1A0E04"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Plate -->
+  <ellipse cx="400" cy="535" rx="295" ry="258" fill="#181008" opacity="0.6"/>
+  <ellipse cx="400" cy="530" rx="285" ry="248" fill="url(#plate)"/>
+  <ellipse cx="400" cy="528" rx="268" ry="232" fill="#FAF5F0" opacity="0.9"/>
+  <!-- Rice bed -->
+  <ellipse cx="400" cy="545" rx="240" ry="195" fill="#F5EDD5"/>
+  <!-- Rice texture -->
+  <g fill="#E8D8B0" opacity="0.7">
+    <ellipse cx="340" cy="532" rx="7" ry="3" transform="rotate(-20 340 532)"/>
+    <ellipse cx="366" cy="522" rx="6" ry="2.5" transform="rotate(10 366 522)"/>
+    <ellipse cx="392" cy="535" rx="7" ry="3" transform="rotate(-5 392 535)"/>
+    <ellipse cx="418" cy="525" rx="6" ry="2.5" transform="rotate(15 418 525)"/>
+    <ellipse cx="444" cy="538" rx="7" ry="3" transform="rotate(-25 444 538)"/>
+    <ellipse cx="355" cy="552" rx="6" ry="2.5" transform="rotate(8 355 552)"/>
+    <ellipse cx="382" cy="560" rx="7" ry="3" transform="rotate(-12 382 560)"/>
+    <ellipse cx="408" cy="555" rx="6" ry="2.5" transform="rotate(18 408 555)"/>
+    <ellipse cx="430" cy="548" rx="7" ry="3" transform="rotate(-8 430 548)"/>
+  </g>
+  <!-- Kofta 1 (left) -->
+  <rect x="265" y="470" width="110" height="52" rx="26" fill="url(#kofta)"/>
+  <rect x="270" y="474" width="100" height="42" rx="21" fill="#6A3008" opacity="0.5"/>
+  <line x1="278" y1="484" x2="365" y2="484" stroke="#3A1002" stroke-width="2" opacity="0.6"/>
+  <line x1="278" y1="492" x2="365" y2="492" stroke="#3A1002" stroke-width="1.5" opacity="0.45"/>
+  <line x1="278" y1="500" x2="365" y2="500" stroke="#3A1002" stroke-width="1.5" opacity="0.4"/>
+  <!-- Kofta 2 (right) -->
+  <rect x="425" y="470" width="110" height="52" rx="26" fill="url(#kofta)"/>
+  <rect x="430" y="474" width="100" height="42" rx="21" fill="#6A3008" opacity="0.5"/>
+  <line x1="438" y1="484" x2="525" y2="484" stroke="#3A1002" stroke-width="2" opacity="0.6"/>
+  <line x1="438" y1="492" x2="525" y2="492" stroke="#3A1002" stroke-width="1.5" opacity="0.45"/>
+  <!-- Kofta 3 (center bottom) -->
+  <rect x="345" y="538" width="110" height="52" rx="26" fill="url(#kofta)"/>
+  <rect x="350" y="542" width="100" height="42" rx="21" fill="#6A3008" opacity="0.5"/>
+  <line x1="358" y1="552" x2="445" y2="552" stroke="#3A1002" stroke-width="2" opacity="0.6"/>
+  <line x1="358" y1="560" x2="445" y2="560" stroke="#3A1002" stroke-width="1.5" opacity="0.45"/>
+  <!-- Garlic sauce drizzle -->
+  <path d="M290 475 Q350 460 400 468 Q450 476 510 462" stroke="#FFFFF0" stroke-width="5.5" fill="none" stroke-linecap="round" opacity="0.82"/>
+  <path d="M310 490 Q360 478 405 486 Q448 494 502 480" stroke="#FFFFF0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M358 545 Q385 534 400 542 Q416 550 443 538" stroke="#FFFFF0" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.75"/>
+  <!-- Tomato wedges -->
+  <path d="M250 560 Q240 540 252 528 Q262 518 275 525 Q285 535 280 552 Q275 566 262 568 Q250 566 250 560Z" fill="#C03020" opacity="0.9"/>
+  <path d="M540 560 Q530 540 542 528 Q552 518 565 525 Q575 535 570 552 Q565 566 552 568 Q540 566 540 560Z" fill="#C03020" opacity="0.9"/>
+  <!-- Parsley -->
+  <g fill="#2A6A3A" opacity="0.88">
+    <circle cx="380" cy="450" r="5.5"/><circle cx="392" cy="443" r="4.5"/><circle cx="400" cy="451" r="5.5"/>
+    <circle cx="385" cy="457" r="4"/><circle cx="412" cy="446" r="4.5"/><circle cx="420" cy="440" r="5"/>
+    <circle cx="428" cy="450" r="4"/><circle cx="396" cy="439" r="4"/>
+  </g>
+  <!-- Sumac dusting (red-purple dots) -->
+  <g fill="#8B1A3A" opacity="0.5">
+    <circle cx="280" cy="504" r="3"/><circle cx="292" cy="498" r="2.5"/>
+    <circle cx="510" cy="502" r="3"/><circle cx="500" cy="496" r="2.5"/>
+    <circle cx="365" cy="590" r="3"/><circle cx="435" cy="586" r="2.5"/>
+  </g>
+  <!-- Text overlay -->
+  <rect x="0" y="695" width="800" height="505" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#8B6030" stroke-width="1.5" opacity="0.42"/>
+  <rect x="80" y="818" width="78" height="28" rx="14" fill="#C0522B"/>
+  <text x="119" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">BEEF</text>
+  <text x="400" y="925" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Ground Beef Kofta</text>
+  <text x="400" y="982" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">with Garlic Sauce</text>
+  <line x1="200" y1="1008" x2="600" y2="1008" stroke="#D4882A" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1050" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4882A" letter-spacing="0.5">⏱ 30 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

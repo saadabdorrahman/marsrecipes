@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png">
+
+  <meta name="description" content="Get in touch with Mars Recipes — recipe questions, partnerships, advertising inquiries, or just to say hello. We'd love to hear from you.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Mars Recipes">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact Us | Mars Recipes">
+  <meta property="og:description" content="Get in touch with Mars Recipes — recipe questions, partnerships, or just to say hello.">
+  <meta property="og:url" content="https://marsrecipes.com/contact.html">
+  <meta property="og:site_name" content="Mars Recipes">
+
+  <link rel="canonical" href="https://marsrecipes.com/contact.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <title>Contact Us | Mars Recipes</title>
+  <link rel="alternate" type="application/rss+xml" title="Mars Recipes Feed" href="https://www.marsrecipes.com/feed.xml">
+</head>
+<body>
+
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a href="index.html" class="logo" aria-label="Mars Recipes – Home">
+      <img src="favicon-192x192.png" class="logo-icon" alt="" width="38" height="38">
+      <span class="logo-text"><span>Mars</span> Recipes</span>
+    </a>
+    <nav class="nav-primary" aria-label="Main navigation">
+      <ul>
+        <li><a href="recipes/index.html">Recipes</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="is-active">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="search-btn" id="searchToggle" aria-label="Search recipes" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span class="search-btn-label">Search</span></button>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav id="nav-mobile" class="nav-mobile" aria-hidden="true">
+    <ul>
+      <li><a href="recipes/index.html">All Recipes</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="contact-page">
+  <div class="container">
+
+    <!-- Page header -->
+    <div style="text-align:center; margin-bottom: 3rem;">
+      <h1 style="font-size: 2.5rem; margin-bottom: 0.75rem;">Get in Touch</h1>
+      <p class="lead" style="color: var(--color-text-muted); max-width: 500px; margin: 0 auto;">We read every message and typically respond within 2 business days.</p>
+    </div>
+
+    <div class="contact-layout">
+
+      <!-- Contact form -->
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <p style="color: var(--color-text-muted); font-size: 0.875rem; margin-bottom: 1.5rem;">Recipe question? Spotted an error? Want to collaborate? Use the form below.</p>
+
+        <!--
+          To make this form work, choose one of these options:
+          Option 1 – Formspree: Change the action to your Formspree URL
+                     <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          Option 2 – Netlify: Add the "netlify" attribute to the form tag
+                     <form name="contact" netlify>
+          Option 3 – EmailJS: Use the EmailJS JavaScript SDK (free tier available)
+        -->
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name <span aria-hidden="true">*</span></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your full name"
+              required
+              autocomplete="name"
+              aria-required="true"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address <span aria-hidden="true">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+              autocomplete="email"
+              aria-required="true"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="subject">What's This About?</label>
+            <select id="subject" name="subject" aria-label="Message subject">
+              <option value="recipe-question">Recipe Question</option>
+              <option value="general">General Inquiry</option>
+              <option value="partnership">Partnership / Advertising</option>
+              <option value="feedback">Feedback / Suggestion</option>
+              <option value="correction">Recipe Correction</option>
+              <option value="other">Something Else</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message <span aria-hidden="true">*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              placeholder="Tell us what's on your mind..."
+              required
+              aria-required="true"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary" style="width: 100%;">Send Message →</button>
+          <div class="form-feedback" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <!-- Contact info sidebar -->
+      <div class="contact-info">
+        <h2>Other Ways to Connect</h2>
+
+        <div class="contact-info-item">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <div>
+            <h4 style="margin:0 0 0.25rem; font-size:0.875rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--color-text-muted);">Email Us Directly</h4>
+            <a href="mailto:hello@marsrecipes.com" style="font-weight:700; color:var(--color-primary);">hello@marsrecipes.com</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/>
+          </svg>
+          <div>
+            <h4 style="margin:0 0 0.25rem; font-size:0.875rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--color-text-muted);">Find Us Online</h4>
+            <p style="margin:0; font-size:0.9rem; color:var(--color-text-body);">marsrecipes.com</p>
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <h3 style="font-size:1rem; margin-bottom:1rem;">Follow for Daily Inspiration</h3>
+        <div style="display:flex; flex-direction:column; gap:0.75rem;">
+          <a href="#" rel="noopener" style="display:flex; align-items:center; gap:0.75rem; text-decoration:none; color:var(--color-text-body); font-weight:700; padding:0.75rem 1rem; background:var(--color-surface-alt); border-radius:var(--radius-md); transition:background 0.2s;" onmouseover="this.style.background='var(--color-border)'" onmouseout="this.style.background='var(--color-surface-alt)'">
+            <span style="color:#E60023; font-weight:900;">P</span> Pinterest — @MarsRecipes
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61569030950569" rel="noopener" target="_blank" style="display:flex; align-items:center; gap:0.75rem; text-decoration:none; color:var(--color-text-body); font-weight:700; padding:0.75rem 1rem; background:var(--color-surface-alt); border-radius:var(--radius-md); transition:background 0.2s;" onmouseover="this.style.background='var(--color-border)'" onmouseout="this.style.background='var(--color-surface-alt)'">
+            <span style="color:#1877F2; font-weight:900;">f</span> Facebook — Mars Recipes
+          </a>
+        </div>
+
+        <hr class="divider">
+
+        <div style="background: var(--color-surface-alt); border-radius: var(--radius-lg); padding: 1.25rem;">
+          <h4 style="margin-top:0; color:var(--color-primary);">For Advertising & Partnerships</h4>
+          <p style="margin:0; font-size:0.875rem; color:var(--color-text-body);">If you're a brand interested in sponsoring content or advertising on Mars Recipes, please select "Partnership / Advertising" in the form or email us directly at <a href="mailto:hello@marsrecipes.com" style="color:var(--color-primary); font-weight:700;">hello@marsrecipes.com</a>.</p>
+        </div>
+      </div>
+
+    </div><!-- /.contact-layout -->
+  </div>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="favicon-192x192.png" class="logo-icon" alt="" width="44" height="44">
+      <span class="logo-text"><span>Mars</span> Recipes</span>
+      <p>Easy, delicious recipes for busy weeknights. Tested and trusted.</p>
+      <div class="footer-social">
+        <a href="https://www.pinterest.com/saadabdorrahman/pie/" class="social-link" aria-label="Pinterest" target="_blank" rel="noopener">P</a>
+        <a href="https://www.facebook.com/profile.php?id=61569030950569" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">f</a>
+      </div>
+    </div>
+    <div class="footer-nav"><h3>Recipes</h3><ul><li><a href="recipes/index.html?filter=chicken">Chicken</a></li><li><a href="recipes/index.html?filter=beef">Beef</a></li><li><a href="recipes/index.html?filter=seafood">Seafood</a></li></ul></div>
+    <div class="footer-nav"><h3>Site</h3><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="footer-nav"><h3>Legal</h3><ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="disclaimer.html">Disclaimer</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>© 2026 Mars Recipes · All rights reserved</p></div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>
+<script src="js/main.min.js" defer></script>
+
+<!-- ============================================================
+     Cookie Consent Banner (GDPR / CCPA)
+============================================================ -->
+<div id="cookieConsent" class="cookie-consent" role="dialog" aria-labelledby="cookieTitle" aria-describedby="cookieDesc" hidden>
+  <div class="cookie-consent__inner">
+    <div class="cookie-consent__text">
+      <p id="cookieTitle"><strong>We use cookies</strong></p>
+      <p id="cookieDesc">We use cookies to analyze traffic and improve your experience. By clicking "Accept", you consent to our use of cookies. <a href="privacy-policy.html" class="cookie-link">Privacy Policy</a></p>
+    </div>
+    <div class="cookie-consent__actions">
+      <button id="cookieDecline" class="cookie-btn cookie-btn--decline">Decline</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn--accept">Accept</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

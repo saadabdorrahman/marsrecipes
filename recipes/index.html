@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../favicon-192x192.png">
+
+  <meta name="description" content="Browse all Mars Recipes recipes — easy weeknight dinners, one-pan chicken, bold beef bowls, and quick seafood. Filter by category and find your next favorite meal.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Mars Recipes">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="All Recipes | Mars Recipes">
+  <meta property="og:description" content="Easy weeknight dinners, one-pan meals, and comfort food classics. Browse by category.">
+  <meta property="og:image" content="https://www.marsrecipes.com/images/easy-chicken-tikka-masala.jpg.png">
+  <meta property="og:url" content="https://marsrecipes.com/recipes/">
+  <meta property="og:site_name" content="Mars Recipes">
+
+  <link rel="canonical" href="https://marsrecipes.com/recipes/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.min.css">
+
+  <title>All Recipes | Mars Recipes – Easy Weeknight Dinners</title>
+  <link rel="alternate" type="application/rss+xml" title="Mars Recipes Feed" href="https://www.marsrecipes.com/feed.xml">
+</head>
+<body>
+
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a href="../index.html" class="logo" aria-label="Mars Recipes – Home">
+      <img src="../favicon-192x192.png" class="logo-icon" alt="" width="38" height="38">
+      <span class="logo-text"><span>Mars</span> Recipes</span>
+    </a>
+    <nav class="nav-primary" aria-label="Main navigation">
+      <ul>
+        <li><a href="../recipes/index.html" class="is-active">Recipes</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="search-btn" id="searchToggle" aria-label="Search recipes" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span class="search-btn-label">Search</span></button>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav id="nav-mobile" class="nav-mobile" aria-hidden="true">
+    <ul>
+      <li><a href="../recipes/index.html">All Recipes</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <div class="recipes-hero">
+    <div class="container">
+      <h1>All Recipes</h1>
+      <p style="color: var(--color-text-muted); font-size: 1.125rem;">Easy, tested recipes for every night of the week.</p>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- Ad slot leaderboard -->
+    <div class="ad-slot ad-slot--leaderboard" aria-hidden="true">
+      <span class="ad-slot--placeholder-text">Advertisement</span>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="filter-bar" role="list" aria-label="Filter recipes by category">
+      <button class="filter-btn is-active" data-filter="all" role="listitem" type="button">All Recipes</button>
+      <button class="filter-btn" data-filter="chicken" role="listitem" type="button">Chicken</button>
+      <button class="filter-btn" data-filter="beef" role="listitem" type="button">Beef</button>
+      <button class="filter-btn" data-filter="seafood" role="listitem" type="button">Seafood</button>
+      <button class="filter-btn" data-filter="quick" role="listitem" type="button">Under 30 Min</button>
+      <button class="filter-btn" data-filter="pasta" role="listitem" type="button">Pasta</button>
+      <button class="filter-btn" data-filter="vegetarian" role="listitem" type="button">Vegetarian</button>
+    </div>
+
+    <!-- Recipe grid -->
+    <div class="grid-3" style="margin-bottom: 4rem;">
+
+      <!-- 1 -->
+      <article class="recipe-card" data-category="chicken quick">
+        <a href="easy-creamy-garlic-chicken.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/easy-creamy-garlic-chicken.jpg.png" alt="Easy creamy garlic chicken thighs in a rich garlic cream sauce — 30-minute weeknight dinner" width="800" height="1200" loading="lazy" onerror="this.onerror=null;this.src='../images/easy-creamy-garlic-chicken.jpg.png';" class="recipe-card__image">
+          <span class="recipe-card__category">Chicken</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(127)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 30 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="easy-creamy-garlic-chicken.html">Easy Creamy Garlic Chicken – Ready in 30 Minutes</a></h3>
+          <p class="recipe-card__excerpt">Golden pan-seared chicken thighs in a rich garlic cream sauce. One pan, weeknight-ready.</p>
+        </div>
+      </article>
+
+      <!-- 2 -->
+      <article class="recipe-card" data-category="beef">
+        <a href="one-pan-beef-shawarma-bowl.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/one-pan-beef-shawarma-bowl.png" alt="One-pan beef shawarma bowl with spiced ground beef, fluffy rice, and creamy garlic sauce" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Beef</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.8 stars">★★★★★</span><span class="rating-count">(89)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 40 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="one-pan-beef-shawarma-bowl.html">One-Pan Beef Shawarma Bowl – Better Than Takeout</a></h3>
+          <p class="recipe-card__excerpt">Spiced beef over fluffy rice with homemade garlic sauce. Meal-prep friendly and absolutely addictive.</p>
+        </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="recipe-card" data-category="seafood quick">
+        <a href="crispy-honey-garlic-salmon.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/crispy-honey-garlic-salmon.jpg.png" alt="Crispy honey garlic salmon fillets with caramelized glaze, sesame seeds, and scallions" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Seafood</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(203)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 17 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="crispy-honey-garlic-salmon.html">Crispy Honey Garlic Salmon – Ready in 17 Minutes</a></h3>
+          <p class="recipe-card__excerpt">Flaky salmon with a sticky sweet-savory glaze. The fastest weeknight dinner that looks restaurant-quality.</p>
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="recipe-card" data-category="chicken quick">
+        <a href="one-pan-honey-butter-chicken.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/one-pan-honey-butter-chicken.jpg.png" alt="Golden honey butter chicken thighs glazed in caramelized honey garlic sauce — one pan, 30 minutes" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Chicken</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(184)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 25 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="one-pan-honey-butter-chicken.html">One-Pan Honey Butter Chicken – Ready in 25 Minutes</a></h3>
+          <p class="recipe-card__excerpt">Sweet, buttery, and perfectly glazed chicken thighs. One pan, minimal cleanup, maximum flavor.</p>
+        </div>
+      </article>
+
+      <!-- 5 -->
+      <article class="recipe-card" data-category="beef quick">
+        <a href="garlic-butter-steak-bites.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/garlic-butter-steak-bites.jpg.png" alt="Garlic butter steak bites in a cast iron skillet with herb butter, fresh thyme, and lemon" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Beef</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(256)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 15 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="garlic-butter-steak-bites.html">Garlic Butter Steak Bites – Ready in 15 Minutes</a></h3>
+          <p class="recipe-card__excerpt">Tender sirloin bites seared in garlic herb butter. The best steak dinner for one pan and 15 minutes.</p>
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="recipe-card" data-category="seafood quick">
+        <a href="creamy-tuscan-shrimp.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/creamy-tuscan-shrimp.jpg.png" alt="Creamy Tuscan shrimp with sun-dried tomatoes, wilted spinach and Parmesan in a gleaming skillet" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Seafood</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(312)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 20 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="creamy-tuscan-shrimp.html">Creamy Tuscan Shrimp – Ready in 20 Minutes</a></h3>
+          <p class="recipe-card__excerpt">Juicy shrimp in a creamy sun-dried tomato and spinach sauce. Looks fancy, takes 20 minutes.</p>
+        </div>
+      </article>
+
+      <!-- 7 -->
+      <article class="recipe-card" data-category="chicken">
+        <a href="lemon-herb-sheet-pan-chicken.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/lemon-herb-sheet-pan-chicken.jpg.png" alt="Lemon herb sheet pan chicken with crispy golden skin, roasted potatoes and asparagus" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Chicken</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.8 stars">★★★★★</span><span class="rating-count">(198)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 50 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="lemon-herb-sheet-pan-chicken.html">Lemon Herb Sheet Pan Chicken – One Pan Dinner</a></h3>
+          <p class="recipe-card__excerpt">Juicy roasted chicken thighs and vegetables with lemon herb marinade. The ultimate hands-off dinner.</p>
+        </div>
+      </article>
+
+      <!-- 8 -->
+      <article class="recipe-card" data-category="beef quick">
+        <a href="ground-beef-kofta-garlic-sauce.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/ground-beef-kofta-garlic-sauce.jpg.png" alt="Ground beef kofta with garlic sauce" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Beef</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(143)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 30 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="ground-beef-kofta-garlic-sauce.html">Ground Beef Kofta with Garlic Sauce</a></h3>
+          <p class="recipe-card__excerpt">Juicy spiced beef patties with creamy garlic sauce. Middle Eastern flavors made easy for any weeknight.</p>
+        </div>
+      </article>
+
+      <!-- 9 -->
+      <article class="recipe-card" data-category="chicken">
+        <a href="coconut-chicken-curry.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/coconut-chicken-curry.jpg.png" alt="Creamy coconut chicken curry in a bowl" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Chicken</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(267)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 35 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="coconut-chicken-curry.html">Creamy Coconut Chicken Curry – Ready in 35 Minutes</a></h3>
+          <p class="recipe-card__excerpt">Rich coconut milk curry with tender chicken and bold spices. Comforting, fragrant, and completely irresistible.</p>
+        </div>
+      </article>
+
+      <!-- 10 -->
+      <article class="recipe-card" data-category="chicken">
+        <a href="crispy-baked-chicken-wings.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/crispy-baked-chicken-wings.jpg.png" alt="Crispy oven-baked chicken wings with honey garlic glaze, sesame seeds and scallions" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Chicken</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(445)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 70 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="crispy-baked-chicken-wings.html">Crispy Baked Chicken Wings – No Frying Needed</a></h3>
+          <p class="recipe-card__excerpt">Restaurant-crispy wings from the oven using the baking powder trick. Better than fried, guaranteed.</p>
+        </div>
+      </article>
+
+      <!-- 11 -->
+      <article class="recipe-card" data-category="beef quick">
+        <a href="beef-broccoli-stir-fry.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/beef-broccoli-stir-fry-cooking.jpg.png" alt="Beef and broccoli stir-fry with glossy sauce over rice" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Beef</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(318)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 20 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="beef-broccoli-stir-fry.html">Better-Than-Takeout Beef &amp; Broccoli Stir-Fry</a></h3>
+          <p class="recipe-card__excerpt">Silky velveted beef and crisp broccoli in a glossy savory sauce. Done in 20 minutes, better than delivery.</p>
+        </div>
+      </article>
+
+      <!-- 12 -->
+      <article class="recipe-card" data-category="pasta vegetarian">
+        <a href="creamy-sun-dried-tomato-pasta.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/creamy-sun-dried-tomato-pasta.jpg.png" alt="Creamy sun-dried tomato pasta with Parmesan and basil" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Pasta</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(274)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 25 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="creamy-sun-dried-tomato-pasta.html">Creamy Sun-Dried Tomato Pasta – Ready in 25 Minutes</a></h3>
+          <p class="recipe-card__excerpt">Rich, restaurant-quality pasta in 25 minutes. The pasta water trick makes the sauce impossibly silky.</p>
+        </div>
+      </article>
+
+      <!-- 13 -->
+      <article class="recipe-card" data-category="seafood quick">
+        <a href="smoky-paprika-baked-salmon.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/smoky-paprika-baked-salmon.jpg.png" alt="Smoky paprika baked salmon fillets with lemon wedges" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Seafood</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(229)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 20 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="smoky-paprika-baked-salmon.html">Smoky Paprika Baked Salmon – Ready in 20 Minutes</a></h3>
+          <p class="recipe-card__excerpt">Bold 5-ingredient spice rub, perfectly flaky salmon, no fuss. The best weeknight salmon recipe.</p>
+        </div>
+      </article>
+
+      <!-- 14 -->
+      <article class="recipe-card" data-category="chicken">
+        <a href="easy-chicken-tikka-masala.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/easy-chicken-tikka-masala.jpg.png" alt="Creamy chicken tikka masala with rice and cilantro" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Chicken</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(387)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 40 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="easy-chicken-tikka-masala.html">Easy Chicken Tikka Masala – Better Than Takeout</a></h3>
+          <p class="recipe-card__excerpt">Creamy, deeply spiced Indian-American classic at home in 40 minutes. Bloomed spices make it extraordinary.</p>
+        </div>
+      </article>
+
+      <!-- 15 -->
+      <article class="recipe-card" data-category="seafood quick">
+        <a href="spicy-garlic-butter-shrimp.html" class="recipe-card__image-link">
+          <img decoding="async" src="../images/spicy-garlic-butter-shrimp.jpg.png" alt="Spicy garlic butter shrimp in a skillet with lemon" width="800" height="1200" loading="lazy" onerror="this.style.display='none'" class="recipe-card__image">
+          <span class="recipe-card__category">Seafood</span>
+        </a>
+        <div class="recipe-card__body">
+          <div class="recipe-card__rating"><span class="stars" aria-label="4.9 stars">★★★★★</span><span class="rating-count">(492)</span></div>
+          <div class="recipe-card__meta"><span class="recipe-card__time">⏱ 10 min</span><span class="recipe-card__difficulty">Easy</span></div>
+          <h3 class="recipe-card__title"><a href="spicy-garlic-butter-shrimp.html">Spicy Garlic Butter Shrimp – Ready in 10 Minutes</a></h3>
+          <p class="recipe-card__excerpt">The fastest recipe on the site. Bold, buttery, garlicky shrimp that's faster than delivery.</p>
+        </div>
+      </article>
+
+    </div><!-- /.grid-3 -->
+
+    <!-- Newsletter CTA -->
+    <div style="text-align:center; padding: 3rem; background: var(--color-surface-alt); border-radius: var(--radius-xl); margin-bottom: 4rem;">
+      <h3 style="margin-top:0; color: var(--color-primary);">Never Miss a New Recipe</h3>
+      <p style="color: var(--color-text-muted); max-width: 480px; margin: 0 auto 1.5rem;">New tested recipes every week. Subscribe and be the first to get them.</p>
+      <form class="newsletter-form" novalidate style="max-width: 420px; margin: 0 auto;">
+        <input type="email" placeholder="Your email address" aria-label="Email address" required>
+        <button type="submit" class="btn btn--primary">Subscribe Free</button>
+      </form>
+      <div class="newsletter-feedback" aria-live="polite"></div>
+    </div>
+
+  </div><!-- /.container -->
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="../favicon-192x192.png" class="logo-icon" alt="" width="44" height="44">
+      <span class="logo-text"><span>Mars</span> Recipes</span>
+      <p>Easy, delicious recipes for busy weeknights. Tested and trusted.</p>
+      <div class="footer-social">
+        <a href="https://www.pinterest.com/saadabdorrahman/pie/" class="social-link" aria-label="Pinterest" target="_blank" rel="noopener">P</a>
+        <a href="https://www.facebook.com/profile.php?id=61569030950569" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">f</a>
+      </div>
+    </div>
+    <div class="footer-nav"><h3>Recipes</h3><ul><li><a href="?filter=chicken">Chicken</a></li><li><a href="?filter=beef">Beef</a></li><li><a href="?filter=seafood">Seafood</a></li><li><a href="?filter=quick">Quick Meals</a></li></ul></div>
+    <div class="footer-nav"><h3>Site</h3><ul><li><a href="../about.html">About</a></li><li><a href="../contact.html">Contact</a></li></ul></div>
+    <div class="footer-nav"><h3>Legal</h3><ul><li><a href="../privacy-policy.html">Privacy Policy</a></li><li><a href="../disclaimer.html">Disclaimer</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>© 2026 Mars Recipes · All rights reserved</p></div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>
+<script src="../js/main.min.js" defer></script>
+
+<!-- ============================================================
+     Cookie Consent Banner (GDPR / CCPA)
+============================================================ -->
+<div id="cookieConsent" class="cookie-consent" role="dialog" aria-labelledby="cookieTitle" aria-describedby="cookieDesc" hidden>
+  <div class="cookie-consent__inner">
+    <div class="cookie-consent__text">
+      <p id="cookieTitle"><strong>We use cookies</strong></p>
+      <p id="cookieDesc">We use cookies to analyze traffic and improve your experience. By clicking "Accept", you consent to our use of cookies. <a href="privacy-policy.html" class="cookie-link">Privacy Policy</a></p>
+    </div>
+    <div class="cookie-consent__actions">
+      <button id="cookieDecline" class="cookie-btn cookie-btn--decline">Decline</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn--accept">Accept</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

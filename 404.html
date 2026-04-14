@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png">
+
+  <title>Page Not Found | Mars Recipes</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <style>
+    .error-page {
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    .error-page__inner { max-width: 560px; }
+    .error-code {
+      font-family: var(--font-heading);
+      font-size: 8rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      line-height: 1;
+      margin-bottom: 1rem;
+      opacity: 0.25;
+    }
+    .error-page h1 { font-size: 2rem; margin-bottom: 1rem; margin-top: 0; }
+    .error-page p { color: var(--color-text-muted); font-size: 1.125rem; margin-bottom: 2rem; }
+    .error-suggestions { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; margin-top: 2rem; }
+  </style>
+  <link rel="alternate" type="application/rss+xml" title="Mars Recipes Feed" href="https://www.marsrecipes.com/feed.xml">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="favicon-192x192.png" class="logo-icon" alt="" width="38" height="38"><span class="logo-text"><span>Mars</span> Recipes</span>
+      </a>
+      <nav class="nav-primary" id="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes/index.html">Recipes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="search-btn" id="searchToggle" aria-label="Search recipes" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span class="search-btn-label">Search</span></button>
+    <button class="nav-toggle" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="error-page">
+      <div class="error-page__inner">
+        <div class="error-code">404</div>
+        <h1>Oops — Recipe Not Found</h1>
+        <p>It looks like this page took a wrong turn at the spice rack. The recipe you're looking for might have moved or never existed.</p>
+        <a href="index.html" class="btn btn--primary">← Back to Homepage</a>
+
+        <div class="error-suggestions">
+          <a href="recipes/index.html" class="btn btn--outline">All Recipes</a>
+          <a href="recipes/spicy-garlic-butter-shrimp.html" class="btn btn--ghost">Quick 10-Min Shrimp</a>
+          <a href="recipes/easy-chicken-tikka-masala.html" class="btn btn--ghost">Chicken Tikka Masala</a>
+          <a href="recipes/beef-broccoli-stir-fry.html" class="btn btn--ghost">Beef &amp; Broccoli</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+      <img src="favicon-192x192.png" class="logo-icon" alt="" width="44" height="44">
+      <span class="logo-text"><span>Mars</span> Recipes</span>
+        <p>Easy, delicious recipes for busy weeknights. Tested and trusted.</p>
+      </div>
+      <div class="footer-nav"><h3>Recipes</h3><ul><li><a href="recipes/index.html?filter=chicken">Chicken</a></li><li><a href="recipes/index.html?filter=beef">Beef</a></li><li><a href="recipes/index.html?filter=seafood">Seafood</a></li><li><a href="recipes/index.html?filter=pasta">Pasta</a></li></ul></div>
+      <div class="footer-nav"><h3>Site</h3><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-nav"><h3>Legal</h3><ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="disclaimer.html">Disclaimer</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Mars Recipes · All rights reserved</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+  <script src="js/main.min.js"></script>
+
+<!-- ============================================================
+     Cookie Consent Banner (GDPR / CCPA)
+============================================================ -->
+<div id="cookieConsent" class="cookie-consent" role="dialog" aria-labelledby="cookieTitle" aria-describedby="cookieDesc" hidden>
+  <div class="cookie-consent__inner">
+    <div class="cookie-consent__text">
+      <p id="cookieTitle"><strong>We use cookies</strong></p>
+      <p id="cookieDesc">We use cookies to analyze traffic and improve your experience. By clicking "Accept", you consent to our use of cookies. <a href="privacy-policy.html" class="cookie-link">Privacy Policy</a></p>
+    </div>
+    <div class="cookie-consent__actions">
+      <button id="cookieDecline" class="cookie-btn cookie-btn--decline">Decline</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn--accept">Accept</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

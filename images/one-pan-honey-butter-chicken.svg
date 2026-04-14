@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E0C00"/>
+      <stop offset="50%" stop-color="#4A1E00"/>
+      <stop offset="100%" stop-color="#8B5A00"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#D4882A" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#1E0C00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ck" cx="25%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#E8A030"/>
+      <stop offset="100%" stop-color="#7A3800"/>
+    </radialGradient>
+    <radialGradient id="honey" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#F5C842"/>
+      <stop offset="100%" stop-color="#C07800"/>
+    </radialGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E0C00" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#1E0C00" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1E0C00"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Pan -->
+  <ellipse cx="400" cy="515" rx="308" ry="285" fill="#0A0500" opacity="0.95"/>
+  <ellipse cx="400" cy="515" rx="292" ry="270" fill="#140800"/>
+  <!-- Honey butter sauce pool -->
+  <ellipse cx="400" cy="528" rx="255" ry="218" fill="#D4882A" opacity="0.92"/>
+  <ellipse cx="400" cy="524" rx="235" ry="198" fill="#C07820" opacity="0.75"/>
+  <!-- Butter swirls -->
+  <path d="M295 505 Q340 488 400 498 Q455 508 495 492" stroke="#F5C842" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M315 525 Q360 512 410 520 Q458 528 490 514" stroke="#F5D060" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Chicken thigh 1 -->
+  <path d="M258 438 Q282 390 335 400 Q388 410 398 452 Q415 492 395 532 Q372 568 332 562 Q285 555 260 518 Q242 488 258 438Z" fill="url(#ck)"/>
+  <path d="M274 454 Q294 436 326 444 Q355 452 364 476 Q375 502 358 524 Q339 546 309 543 Q282 537 268 512 Q256 490 274 454Z" fill="#E09828" opacity="0.45"/>
+  <!-- Honey glaze on chicken 1 -->
+  <path d="M270 448 Q310 435 358 445 Q390 452 400 468" stroke="url(#honey)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M275 462 Q312 452 352 458 Q382 464 394 476" stroke="#F5C842" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- Chicken thigh 2 -->
+  <path d="M402 448 Q430 405 476 418 Q520 430 528 468 Q538 508 516 540 Q494 565 452 562 Q412 554 398 520 Q386 490 402 448Z" fill="url(#ck)"/>
+  <!-- Honey glaze on chicken 2 -->
+  <path d="M408 452 Q450 438 492 448 Q518 458 526 475" stroke="url(#honey)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <!-- Thyme sprigs -->
+  <g stroke="#3D7A30" stroke-width="1.8" fill="none" opacity="0.88">
+    <line x1="365" y1="410" x2="365" y2="428"/>
+    <line x1="362" y1="414" x2="358" y2="410"/><line x1="368" y1="414" x2="372" y2="410"/>
+    <line x1="362" y1="419" x2="357" y2="415"/><line x1="368" y1="419" x2="373" y2="415"/>
+    <line x1="362" y1="424" x2="357" y2="420"/><line x1="368" y1="424" x2="373" y2="420"/>
+    <line x1="412" y1="412" x2="412" y2="430"/>
+    <line x1="409" y1="416" x2="405" y2="412"/><line x1="415" y1="416" x2="419" y2="412"/>
+    <line x1="409" y1="421" x2="404" y2="417"/><line x1="415" y1="421" x2="420" y2="417"/>
+  </g>
+  <!-- Garlic -->
+  <ellipse cx="318" cy="592" rx="20" ry="14" fill="#F5F0E0" transform="rotate(-15 318 592)"/>
+  <ellipse cx="350" cy="604" rx="16" ry="11" fill="#EDE8D8" transform="rotate(12 350 604)"/>
+  <ellipse cx="465" cy="588" rx="18" ry="13" fill="#F5F0E0" transform="rotate(-8 465 588)"/>
+  <!-- Steam -->
+  <path d="M342 385 Q336 354 346 327 Q352 307 344 285" stroke="rgba(255,220,120,0.22)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M400 378 Q394 346 404 318 Q410 296 402 272" stroke="rgba(255,220,120,0.18)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M458 385 Q452 353 462 325 Q470 303 462 280" stroke="rgba(255,220,120,0.16)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Text overlay -->
+  <rect x="0" y="690" width="800" height="510" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#D4882A" stroke-width="1.5" opacity="0.45"/>
+  <rect x="80" y="818" width="95" height="28" rx="14" fill="#C0522B"/>
+  <text x="128" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">CHICKEN</text>
+  <text x="400" y="928" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">One-Pan Honey</text>
+  <text x="400" y="985" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Butter Chicken</text>
+  <line x1="200" y1="1010" x2="600" y2="1010" stroke="#D4882A" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1052" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4882A" letter-spacing="0.5">⏱ 25 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081008"/>
+      <stop offset="100%" stop-color="#182A10"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#3A7A20" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#081008" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EEE4D8"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <!-- Plate -->
+  <ellipse cx="400" cy="295" rx="258" ry="232" fill="#040804" opacity="0.58"/>
+  <ellipse cx="400" cy="288" rx="245" ry="218" fill="url(#plate)"/>
+  <ellipse cx="400" cy="286" rx="230" ry="204" fill="#FFFCF8" opacity="0.9"/>
+  <!-- Pasta base -->
+  <ellipse cx="400" cy="300" rx="200" ry="162" fill="#F5E0B0" opacity="0.85"/>
+  <!-- Penne pasta pieces -->
+  <g fill="#D4A840" opacity="0.88">
+    <rect x="316" y="264" width="38" height="16" rx="4" transform="rotate(-25 316 264)"/>
+    <rect x="348" y="250" width="38" height="16" rx="4" transform="rotate(10 348 250)"/>
+    <rect x="388" y="258" width="38" height="16" rx="4" transform="rotate(-15 388 258)"/>
+    <rect x="424" y="254" width="38" height="16" rx="4" transform="rotate(20 424 254)"/>
+    <rect x="458" y="266" width="38" height="16" rx="4" transform="rotate(-8 458 266)"/>
+    <rect x="300" y="294" width="38" height="16" rx="4" transform="rotate(15 300 294)"/>
+    <rect x="334" y="308" width="38" height="16" rx="4" transform="rotate(-20 334 308)"/>
+    <rect x="372" y="300" width="38" height="16" rx="4" transform="rotate(5 372 300)"/>
+    <rect x="410" y="308" width="38" height="16" rx="4" transform="rotate(-12 410 308)"/>
+    <rect x="446" y="296" width="38" height="16" rx="4" transform="rotate(18 446 296)"/>
+    <rect x="318" y="336" width="38" height="16" rx="4" transform="rotate(-10 318 336)"/>
+    <rect x="358" y="344" width="38" height="16" rx="4" transform="rotate(14 358 344)"/>
+    <rect x="396" y="338" width="38" height="16" rx="4" transform="rotate(-8 396 338)"/>
+    <rect x="432" y="332" width="38" height="16" rx="4" transform="rotate(22 432 332)"/>
+  </g>
+  <!-- Broccoli florets -->
+  <g fill="#2A6A20">
+    <circle cx="342" cy="264" r="20"/><circle cx="360" cy="254" r="17"/><circle cx="374" cy="266" r="18"/>
+    <circle cx="350" cy="278" r="14"/>
+  </g>
+  <g fill="#3A7A2A">
+    <circle cx="346" cy="260" r="13"/><circle cx="362" cy="252" r="11"/><circle cx="372" cy="262" r="12"/>
+  </g>
+  <!-- Cherry tomatoes -->
+  <circle cx="442" cy="272" r="16" fill="#D03020" opacity="0.9"/>
+  <circle cx="442" cy="268" r="12" fill="#E04030" opacity="0.5"/>
+  <circle cx="470" cy="310" r="14" fill="#D03020" opacity="0.9"/>
+  <circle cx="470" cy="307" r="10" fill="#E04030" opacity="0.5"/>
+  <!-- Bell pepper -->
+  <path d="M302 316 Q294 298 304 288 Q314 278 328 284 Q338 292 334 308 Q330 322 316 324 Q302 322 302 316Z" fill="#E07820" opacity="0.9"/>
+  <!-- Olive oil drizzle -->
+  <path d="M318 252 Q368 238 420 246 Q462 252 492 240" stroke="#D4A820" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- Text -->
+  <rect x="0" y="440" width="800" height="160" fill="#081008" opacity="0.88"/>
+  <text x="400" y="502" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="bold" fill="white">Vegetarian</text>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#5A9A30" letter-spacing="1">8 RECIPES</text>
+</svg>

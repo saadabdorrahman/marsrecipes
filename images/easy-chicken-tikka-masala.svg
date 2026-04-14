@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0800"/>
+      <stop offset="50%" stop-color="#3E1400"/>
+      <stop offset="100%" stop-color="#7A2800"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#E05820" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1A0800" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="masala" cx="38%" cy="32%" r="72%">
+      <stop offset="0%" stop-color="#E86020"/>
+      <stop offset="55%" stop-color="#C84010"/>
+      <stop offset="100%" stop-color="#8B1E04"/>
+    </radialGradient>
+    <radialGradient id="chicken" cx="25%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#D07828"/>
+      <stop offset="100%" stop-color="#7A3808"/>
+    </radialGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A0800" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#1A0800" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#1A0800"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Karahi / pan shadow -->
+  <ellipse cx="400" cy="578" rx="285" ry="58" fill="#0A0200" opacity="0.55"/>
+  <!-- Karahi body -->
+  <path d="M138 455 Q135 695 400 718 Q665 695 662 455 Q655 338 400 325 Q145 338 138 455Z" fill="#1A0800"/>
+  <path d="M148 460 Q145 688 400 710 Q655 688 652 460 Q645 348 400 335 Q155 348 148 460Z" fill="#220E02"/>
+  <!-- Masala sauce -->
+  <ellipse cx="400" cy="538" rx="238" ry="188" fill="url(#masala)"/>
+  <!-- Cream swirl (raita/cream) -->
+  <path d="M336 505 Q368 490 402 500 Q436 510 462 496" stroke="#FFF5E8" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.72"/>
+  <path d="M350 522 Q378 510 404 518 Q430 526 454 514" stroke="#FFF5E8" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <ellipse cx="394" cy="512" rx="24" ry="16" fill="#FFF0E0" opacity="0.65"/>
+  <!-- Chicken pieces in sauce -->
+  <path d="M308 492 Q324 472 352 478 Q372 484 370 504 Q366 522 346 526 Q320 526 310 510 Q302 498 308 492Z" fill="url(#chicken)"/>
+  <path d="M316 498 Q328 482 350 488 Q366 494 362 510 Q358 524 340 526 Q318 524 312 510Z" fill="#C07020" opacity="0.5"/>
+  <path d="M368 478 Q384 458 412 464 Q432 470 430 490 Q426 508 406 512 Q380 512 370 496 Q362 484 368 478Z" fill="url(#chicken)"/>
+  <path d="M376 484 Q388 468 408 474 Q424 480 421 496 Q416 510 398 512 Q378 510 372 496Z" fill="#C07020" opacity="0.5"/>
+  <path d="M435 488 Q451 468 478 474 Q498 480 496 500 Q492 518 472 522 Q445 522 436 506 Q429 494 435 488Z" fill="url(#chicken)"/>
+  <path d="M442 494 Q454 478 474 484 Q490 490 487 506 Q482 520 464 522 Q443 520 437 506Z" fill="#C07020" opacity="0.5"/>
+  <!-- Char marks on chicken -->
+  <g stroke="#5A1A02" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M316 496 Q326 490 338 494" stroke-linecap="round"/>
+    <path d="M378 482 Q388 476 400 480" stroke-linecap="round"/>
+    <path d="M444 492 Q454 486 466 490" stroke-linecap="round"/>
+  </g>
+  <!-- Spice floating (fenugreek/cumin seeds) -->
+  <g fill="#2A1200" opacity="0.65">
+    <ellipse cx="355" cy="498" rx="4" ry="2" transform="rotate(-12 355 498)"/>
+    <ellipse cx="420" cy="494" rx="3.5" ry="1.8" transform="rotate(8 420 494)"/>
+    <ellipse cx="390" cy="556" rx="4" ry="2" transform="rotate(-5 390 556)"/>
+    <ellipse cx="460" cy="542" rx="3.5" ry="1.8" transform="rotate(15 460 542)"/>
+  </g>
+  <!-- Naan bread (side) -->
+  <path d="M190 545 Q185 510 205 496 Q225 482 258 488 Q285 494 292 514 Q298 534 285 550 Q270 564 240 564 Q210 560 190 545Z" fill="#E8C870" opacity="0.92"/>
+  <path d="M196 543 Q192 512 210 500 Q228 486 257 492 Q280 497 286 515 Q291 532 280 546 Q266 558 238 558 Q212 554 196 543Z" fill="#D4B04E" opacity="0.6"/>
+  <!-- Char marks on naan -->
+  <g fill="#8B5010" opacity="0.45">
+    <ellipse cx="235" cy="508" rx="12" ry="6" transform="rotate(-15 235 508)"/>
+    <ellipse cx="255" cy="530" rx="10" ry="5" transform="rotate(8 255 530)"/>
+  </g>
+  <!-- Fresh cilantro -->
+  <g fill="#2A6A30" opacity="0.92">
+    <circle cx="382" cy="455" r="5.5"/>
+    <circle cx="395" cy="447" r="4.5"/>
+    <circle cx="406" cy="455" r="5.5"/>
+    <circle cx="387" cy="462" r="4"/>
+    <circle cx="416" cy="451" r="4.5"/>
+    <circle cx="424" cy="445" r="5"/>
+    <circle cx="372" cy="458" r="4"/>
+  </g>
+  <!-- Steam wisps -->
+  <path d="M310 390 Q302 358 314 330 Q322 308 312 284" stroke="rgba(255,120,40,0.2)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M405 382 Q397 350 409 322 Q416 300 407 275" stroke="rgba(255,120,40,0.16)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M495 388 Q487 356 499 328 Q506 306 497 281" stroke="rgba(255,120,40,0.14)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Text overlay -->
+  <rect x="0" y="695" width="800" height="505" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#C04810" stroke-width="1.5" opacity="0.42"/>
+  <rect x="80" y="818" width="95" height="28" rx="14" fill="#C0522B"/>
+  <text x="128" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">CHICKEN</text>
+  <text x="400" y="922" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Chicken Tikka</text>
+  <text x="400" y="978" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Masala</text>
+  <line x1="200" y1="1005" x2="600" y2="1005" stroke="#D4882A" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1048" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4882A" letter-spacing="0.5">⏱ 40 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

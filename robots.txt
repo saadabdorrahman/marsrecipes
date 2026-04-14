@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: https://www.marsrecipes.com/sitemap.xml
+Sitemap: https://www.marsrecipes.com/feed.xml
+
+# Block AI training crawlers
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: FacebookBot
+Allow: /

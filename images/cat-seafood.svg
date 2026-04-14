@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060A18"/>
+      <stop offset="100%" stop-color="#101E40"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#1A4A8A" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#060A18" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="salmon" cx="25%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#E86840"/>
+      <stop offset="100%" stop-color="#8B2808"/>
+    </radialGradient>
+    <radialGradient id="shrimp" cx="25%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#F08060"/>
+      <stop offset="100%" stop-color="#B02818"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <!-- Plate -->
+  <ellipse cx="400" cy="295" rx="268" ry="238" fill="#060412" opacity="0.6"/>
+  <ellipse cx="400" cy="288" rx="255" ry="225" fill="#F8F4EE"/>
+  <ellipse cx="400" cy="286" rx="240" ry="210" fill="#FFFCF8" opacity="0.9"/>
+  <!-- Salmon fillet center -->
+  <path d="M262 268 Q292 238 360 242 Q426 246 468 272 Q498 292 492 326 Q485 358 448 370 Q405 380 358 372 Q305 360 272 330 Q245 304 262 268Z" fill="url(#salmon)"/>
+  <g stroke="#F09060" stroke-width="2.5" fill="none" opacity="0.45" stroke-linecap="round">
+    <path d="M288 278 Q340 268 388 274 Q432 280 468 272"/>
+    <path d="M278 298 Q330 288 378 294 Q422 300 460 292"/>
+    <path d="M274 318 Q326 308 374 313 Q416 318 452 312"/>
+  </g>
+  <!-- Shrimp -->
+  <path d="M476 238 Q462 218 470 203 Q480 186 498 190 Q513 194 514 210 Q515 228 500 238 Q487 249 476 238Z" fill="url(#shrimp)"/>
+  <path d="M498 272 Q484 252 492 237 Q502 220 520 224 Q535 228 536 244 Q537 262 522 272 Q509 283 498 272Z" fill="url(#shrimp)"/>
+  <!-- Lemon -->
+  <circle cx="312" cy="222" r="34" fill="#F5DC3C" opacity="0.92"/>
+  <circle cx="312" cy="222" r="26" fill="#F0D030" opacity="0.85"/>
+  <circle cx="312" cy="222" r="7" fill="#E8C820" opacity="0.9"/>
+  <line x1="312" y1="196" x2="312" y2="248" stroke="#D4B010" stroke-width="1.2" opacity="0.55"/>
+  <line x1="286" y1="209" x2="338" y2="235" stroke="#D4B010" stroke-width="1.2" opacity="0.55"/>
+  <line x1="286" y1="235" x2="338" y2="209" stroke="#D4B010" stroke-width="1.2" opacity="0.55"/>
+  <!-- Capers -->
+  <g fill="#2A6A28" opacity="0.82">
+    <circle cx="418" cy="352" r="5"/><circle cx="432" cy="360" r="4.5"/><circle cx="445" cy="350" r="5"/>
+  </g>
+  <!-- Text -->
+  <rect x="0" y="440" width="800" height="160" fill="#060A18" opacity="0.88"/>
+  <text x="400" y="502" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="bold" fill="white">Seafood</text>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#5A9AD4" letter-spacing="1">10 RECIPES</text>
+</svg>

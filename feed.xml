@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mars Recipes</title>
+    <link>https://www.marsrecipes.com</link>
+    <description>Easy, delicious recipes for busy weeknights. Weeknight dinners, one-pan wonders, and comfort food classics ready in 30 minutes or less.</description>
+    <language>en-us</language>
+    <copyright>2026 Mars Recipes</copyright>
+    <managingEditor>hello@marsrecipes.com (Mars)</managingEditor>
+    <webMaster>hello@marsrecipes.com (Mars)</webMaster>
+    <lastBuildDate>Sun, 12 Apr 2026 21:17:45 +0000</lastBuildDate>
+    <ttl>1440</ttl>
+    <image>
+      <url>https://www.marsrecipes.com/images/og-default.svg</url>
+      <title>Mars Recipes</title>
+      <link>https://www.marsrecipes.com</link>
+    </image>
+    <atom:link href="https://www.marsrecipes.com/feed.xml" rel="self" type="application/rss+xml"/>
+
+  <item>
+    <title>Easy Coconut Chicken Curry – Ready in 35 Minutes | Mars Recipes</title>
+    <link>https://marsrecipes.com/recipes/coconut-chicken-curry.html</link>
+    <guid isPermaLink="true">https://marsrecipes.com/recipes/coconut-chicken-curry.html</guid>
+    <description>Rich, fragrant coconut chicken curry ready in 35 minutes. Tender chicken in a creamy coconut milk sauce with warm spices — better than takeout and made in one pan.</description>
+    <pubDate>Thu, 26 Feb 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/coconut-chicken-curry.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/coconut-chicken-curry.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Ground Beef Kofta with Garlic Sauce – Ready in 30 Minutes | Mars Recipes</title>
+    <link>https://marsrecipes.com/recipes/ground-beef-kofta-garlic-sauce.html</link>
+    <guid isPermaLink="true">https://marsrecipes.com/recipes/ground-beef-kofta-garlic-sauce.html</guid>
+    <description>Juicy spiced beef kofta patties with a cool creamy garlic sauce. 30 minutes and tastes incredible.</description>
+    <pubDate>Thu, 19 Feb 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/ground-beef-kofta-garlic-sauce.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/ground-beef-kofta-garlic-sauce.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Spicy Garlic Butter Shrimp Ready in 10 Minutes</title>
+    <link>https://www.marsrecipes.com/recipes/spicy-garlic-butter-shrimp.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/spicy-garlic-butter-shrimp.html</guid>
+    <description>The fastest recipe on the site — juicy shrimp in a bold buttery garlic sauce with a kick, ready in 10 minutes flat.</description>
+    <pubDate>Wed, 18 Feb 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/spicy-garlic-butter-shrimp.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/spicy-garlic-butter-shrimp.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Crispy Baked Chicken Wings – No Frying Required | Mars Recipes</title>
+    <link>https://marsrecipes.com/recipes/crispy-baked-chicken-wings.html</link>
+    <guid isPermaLink="true">https://marsrecipes.com/recipes/crispy-baked-chicken-wings.html</guid>
+    <description>Just as crispy as fried — baking powder is the secret. No frying, no mess, shatteringly crunchy wings every time.</description>
+    <pubDate>Thu, 12 Feb 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/crispy-baked-chicken-wings.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/crispy-baked-chicken-wings.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Easy Chicken Tikka Masala Better Than Restaurant Takeout</title>
+    <link>https://www.marsrecipes.com/recipes/easy-chicken-tikka-masala.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/easy-chicken-tikka-masala.html</guid>
+    <description>Creamy, deeply spiced chicken tikka masala at home in 40 minutes. The spice blooming secret makes this better than delivery.</description>
+    <pubDate>Tue, 10 Feb 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/easy-chicken-tikka-masala.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/easy-chicken-tikka-masala.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Lemon Herb Sheet Pan Chicken – One Pan Dinner | Mars Recipes</title>
+    <link>https://marsrecipes.com/recipes/lemon-herb-sheet-pan-chicken.html</link>
+    <guid isPermaLink="true">https://marsrecipes.com/recipes/lemon-herb-sheet-pan-chicken.html</guid>
+    <description>Juicy chicken thighs and roasted veggies on one sheet pan. 10 minutes prep, everything else the oven handles.</description>
+    <pubDate>Fri, 06 Feb 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/lemon-herb-sheet-pan-chicken.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/lemon-herb-sheet-pan-chicken.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Smoky Paprika Baked Salmon Ready in 20 Minutes</title>
+    <link>https://www.marsrecipes.com/recipes/smoky-paprika-baked-salmon.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/smoky-paprika-baked-salmon.html</guid>
+    <description>Bold smoked paprika spice rub, perfectly flaky salmon, ready in 20 minutes. The 5-ingredient rub that makes salmon unforgettable.</description>
+    <pubDate>Wed, 04 Feb 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/smoky-paprika-baked-salmon.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/smoky-paprika-baked-salmon.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Creamy Tuscan Shrimp – Ready in 20 Minutes | Mars Recipes</title>
+    <link>https://marsrecipes.com/recipes/creamy-tuscan-shrimp.html</link>
+    <guid isPermaLink="true">https://marsrecipes.com/recipes/creamy-tuscan-shrimp.html</guid>
+    <description>Juicy shrimp in a rich sun-dried tomato cream sauce with spinach. 20 minutes, restaurant quality at home.</description>
+    <pubDate>Fri, 30 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/creamy-tuscan-shrimp.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/creamy-tuscan-shrimp.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Creamy Sun-Dried Tomato Pasta Ready in 25 Minutes</title>
+    <link>https://www.marsrecipes.com/recipes/creamy-sun-dried-tomato-pasta.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/creamy-sun-dried-tomato-pasta.html</guid>
+    <description>Rich, garlicky, creamy pasta with intense sun-dried tomato flavor — made in one pan in 25 minutes. The pasta water trick is the secret.</description>
+    <pubDate>Wed, 28 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/creamy-sun-dried-tomato-pasta.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/creamy-sun-dried-tomato-pasta.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Garlic Butter Steak Bites – Ready in 15 Minutes | Mars Recipes</title>
+    <link>https://marsrecipes.com/recipes/garlic-butter-steak-bites.html</link>
+    <guid isPermaLink="true">https://marsrecipes.com/recipes/garlic-butter-steak-bites.html</guid>
+    <description>Tender sirloin cubes seared in garlic herb butter. 15 minutes and tastes like a steakhouse.</description>
+    <pubDate>Sat, 24 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/garlic-butter-steak-bites.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/garlic-butter-steak-bites.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Better-Than-Takeout Beef &amp; Broccoli Stir-Fry Ready in 20 Minutes</title>
+    <link>https://www.marsrecipes.com/recipes/beef-broccoli-stir-fry.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/beef-broccoli-stir-fry.html</guid>
+    <description>Silky tender beef, crisp-tender broccoli, glossy savory sauce — ready in 20 minutes with the restaurant velveting trick.</description>
+    <pubDate>Thu, 22 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/beef-broccoli-stir-fry-cooking.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/beef-broccoli-stir-fry-cooking.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>One-Pan Honey Butter Chicken – Ready in 25 Minutes | Mars Recipes</title>
+    <link>https://marsrecipes.com/recipes/one-pan-honey-butter-chicken.html</link>
+    <guid isPermaLink="true">https://marsrecipes.com/recipes/one-pan-honey-butter-chicken.html</guid>
+    <description>Juicy chicken thighs in a rich honey butter sauce. One pan, 25 minutes, zero fuss.</description>
+    <pubDate>Sat, 17 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/one-pan-honey-butter-chicken.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/one-pan-honey-butter-chicken.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Crispy Honey Garlic Salmon – Ready in 17 Minutes | Mars Recipes</title>
+    <link>https://marsrecipes.com/recipes/crispy-honey-garlic-salmon.html</link>
+    <guid isPermaLink="true">https://marsrecipes.com/recipes/crispy-honey-garlic-salmon.html</guid>
+    <description>Flaky salmon with a sticky honey garlic glaze. The fastest weeknight dinner that tastes like a restaurant dish — ready in 17 minutes.</description>
+    <pubDate>Tue, 13 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/crispy-honey-garlic-salmon.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/crispy-honey-garlic-salmon.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>One-Pan Beef Shawarma Bowl – Better Than Takeout | Mars Recipes</title>
+    <link>https://marsrecipes.com/recipes/one-pan-beef-shawarma-bowl.html</link>
+    <guid isPermaLink="true">https://marsrecipes.com/recipes/one-pan-beef-shawarma-bowl.html</guid>
+    <description>Spiced ground beef with warm shawarma seasonings over fluffy rice with homemade garlic sauce. Ready in 40 minutes.</description>
+    <pubDate>Fri, 09 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/one-pan-beef-shawarma-bowl.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/one-pan-beef-shawarma-bowl.png" medium="image"/>
+  </item>
+  <item>
+    <title>Easy Creamy Garlic Chicken – Ready in 30 Minutes | Mars Recipes</title>
+    <link>https://marsrecipes.com/recipes/easy-creamy-garlic-chicken.html</link>
+    <guid isPermaLink="true">https://marsrecipes.com/recipes/easy-creamy-garlic-chicken.html</guid>
+    <description>Juicy pan-seared chicken thighs in a rich garlic cream sauce. One pan, 30 minutes — a weeknight dinner the whole family will love.</description>
+    <pubDate>Tue, 06 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/easy-creamy-garlic-chicken.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/easy-creamy-garlic-chicken.jpg.png" medium="image"/>
+  </item>
+  </channel>
+</rss>

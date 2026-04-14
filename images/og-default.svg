@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0A00"/>
+      <stop offset="50%" stop-color="#3A1800"/>
+      <stop offset="100%" stop-color="#6A2E00"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#C07820" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1A0A00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <!-- Decorative border -->
+  <rect x="24" y="24" width="1152" height="582" rx="12" fill="none" stroke="#D4A020" stroke-width="2" opacity="0.4"/>
+  <rect x="32" y="32" width="1136" height="566" rx="10" fill="none" stroke="#D4A020" stroke-width="1" opacity="0.2"/>
+  <!-- Left food illustration - pan -->
+  <ellipse cx="200" cy="310" rx="155" ry="142" fill="#080402" opacity="0.92"/>
+  <ellipse cx="200" cy="308" rx="144" ry="130" fill="#100806"/>
+  <ellipse cx="200" cy="318" rx="118" ry="96" fill="#D4A030" opacity="0.68"/>
+  <path d="M148 278 Q166 252 198 258 Q226 264 228 288 Q230 310 210 322 Q188 332 165 320 Q145 306 148 278Z" fill="#E8A030"/>
+  <path d="M178 270 Q196 244 228 250 Q256 256 258 280 Q260 302 240 314 Q218 324 195 312 Q175 298 178 270Z" fill="#D09028"/>
+  <!-- Right food illustration - bowl -->
+  <ellipse cx="1000" cy="310" rx="148" ry="135" fill="#060204" opacity="0.6"/>
+  <ellipse cx="1000" cy="304" rx="140" ry="126" fill="#F8F4EE" opacity="0.92"/>
+  <ellipse cx="1000" cy="315" rx="118" ry="98" fill="#E87828" opacity="0.78"/>
+  <ellipse cx="998" cy="308" rx="105" ry="86" fill="#F08828" opacity="0.38"/>
+  <g fill="#2A6A30" opacity="0.9">
+    <circle cx="990" cy="262" r="7"/><circle cx="1004" cy="252" r="6"/><circle cx="1016" cy="262" r="7"/>
+    <circle cx="996" cy="270" r="5.5"/>
+  </g>
+  <!-- Central logo area -->
+  <text x="600" y="248" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="88" font-weight="bold" fill="white" opacity="0.95">MarsRecipes</text>
+  <line x1="280" y1="280" x2="920" y2="280" stroke="#D4A020" stroke-width="2" opacity="0.5"/>
+  <text x="600" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#D4A020" letter-spacing="2">EASY · DELICIOUS · HOMEMADE</text>
+  <line x1="360" y1="375" x2="840" y2="375" stroke="#D4A020" stroke-width="1.5" opacity="0.4"/>
+  <text x="600" y="430" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="rgba(255,255,255,0.62)" letter-spacing="1.5">Restaurant-quality recipes for home cooks</text>
+  <!-- Spice dots decoration -->
+  <g fill="#D4780A" opacity="0.2">
+    <circle cx="420" cy="180" r="5"/><circle cx="520" cy="155" r="4"/>
+    <circle cx="680" cy="155" r="4.5"/><circle cx="780" cy="178" r="5"/>
+    <circle cx="410" cy="490" r="4.5"/><circle cx="530" cy="510" r="4"/>
+    <circle cx="680" cy="510" r="4"/><circle cx="790" cy="490" r="5"/>
+  </g>
+  <text x="600" y="568" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="rgba(255,255,255,0.35)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

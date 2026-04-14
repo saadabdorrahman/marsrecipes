@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080E04"/>
+      <stop offset="50%" stop-color="#1A2808"/>
+      <stop offset="100%" stop-color="#2E4010"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#8B4A10" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#080E04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wok" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#2A2A2A"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </radialGradient>
+    <radialGradient id="beef" cx="25%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#7A2808"/>
+      <stop offset="100%" stop-color="#3A0E02"/>
+    </radialGradient>
+    <linearGradient id="sauce" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5A1E02"/>
+      <stop offset="100%" stop-color="#3A1002"/>
+    </linearGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080E04" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#080E04" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#080E04"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Wok shadow -->
+  <ellipse cx="400" cy="570" rx="295" ry="60" fill="#000" opacity="0.5"/>
+  <!-- Wok body -->
+  <path d="M120 430 Q118 580 400 610 Q682 580 680 430 Q650 280 400 265 Q150 280 120 430Z" fill="url(#wok)"/>
+  <path d="M132 435 Q130 575 400 604 Q670 575 668 435 Q640 292 400 278 Q160 292 132 435Z" fill="#1A1A1A"/>
+  <!-- Wok handles -->
+  <rect x="82" y="415" width="52" height="22" rx="11" fill="#1E1E1E"/>
+  <rect x="666" y="415" width="52" height="22" rx="11" fill="#1E1E1E"/>
+  <!-- Sauce/glaze base -->
+  <ellipse cx="400" cy="520" rx="245" ry="185" fill="url(#sauce)" opacity="0.88"/>
+  <!-- Broccoli florets -->
+  <g fill="#1E5A18">
+    <circle cx="270" cy="480" r="26"/>
+    <circle cx="294" cy="468" r="22"/>
+    <circle cx="312" cy="482" r="24"/>
+    <circle cx="285" cy="496" r="19"/>
+    <circle cx="490" cy="475" r="24"/>
+    <circle cx="512" cy="465" r="20"/>
+    <circle cx="528" cy="479" r="22"/>
+    <circle cx="502" cy="491" r="18"/>
+    <circle cx="382" cy="560" r="20"/>
+    <circle cx="400" cy="550" r="18"/>
+    <circle cx="416" cy="562" r="20"/>
+  </g>
+  <g fill="#2A7222">
+    <circle cx="274" cy="476" r="18"/>
+    <circle cx="296" cy="466" r="15"/>
+    <circle cx="310" cy="479" r="16"/>
+    <circle cx="493" cy="471" r="16"/>
+    <circle cx="514" cy="463" r="14"/>
+    <circle cx="386" cy="556" r="14"/>
+    <circle cx="412" cy="558" r="14"/>
+  </g>
+  <!-- Beef strips -->
+  <path d="M330 488 Q352 472 375 478 Q392 484 388 502 Q382 518 360 520 Q334 516 326 500 Q322 490 330 488Z" fill="url(#beef)"/>
+  <path d="M336 494 Q354 480 372 486 Q384 492 380 506 Q374 518 356 518 Q335 514 330 502Z" fill="#6A2208" opacity="0.55"/>
+  <path d="M398 478 Q420 462 442 468 Q458 474 454 492 Q448 508 426 510 Q400 506 393 490 Q389 480 398 478Z" fill="url(#beef)"/>
+  <path d="M404 484 Q424 470 440 476 Q452 482 448 496 Q442 508 424 508 Q403 504 398 492Z" fill="#6A2208" opacity="0.55"/>
+  <path d="M350 530 Q372 516 394 522 Q408 528 404 546 Q399 560 378 562 Q353 558 346 542 Q342 532 350 530Z" fill="url(#beef)"/>
+  <path d="M428 524 Q448 510 468 516 Q482 522 478 540 Q472 554 452 555 Q428 552 422 537 Q418 526 428 524Z" fill="url(#beef)"/>
+  <!-- Sauce glaze shine -->
+  <path d="M285 498 Q340 482 400 490 Q458 498 510 482" stroke="#D4580A" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.65"/>
+  <path d="M298 516 Q352 502 408 510 Q460 518 505 503" stroke="#C04808" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+  <!-- Sesame seeds -->
+  <g fill="#F5E8C0" opacity="0.8">
+    <ellipse cx="345" cy="490" rx="4" ry="2" transform="rotate(-15 345 490)"/>
+    <ellipse cx="365" cy="484" rx="3.5" ry="1.8" transform="rotate(10 365 484)"/>
+    <ellipse cx="412" cy="480" rx="4" ry="2" transform="rotate(-8 412 480)"/>
+    <ellipse cx="430" cy="487" rx="3.5" ry="1.8" transform="rotate(12 430 487)"/>
+    <ellipse cx="360" cy="535" rx="4" ry="2" transform="rotate(5 360 535)"/>
+    <ellipse cx="445" cy="530" rx="3.5" ry="1.8" transform="rotate(-10 445 530)"/>
+  </g>
+  <!-- Scallion strips -->
+  <g stroke="#4A8A28" stroke-width="2.5" fill="none" opacity="0.85">
+    <path d="M322 468 Q338 452 355 458" stroke-linecap="round"/>
+    <path d="M448 462 Q462 448 478 454" stroke-linecap="round"/>
+    <path d="M372 558 Q388 544 404 550" stroke-linecap="round"/>
+  </g>
+  <!-- Steam/wok smoke -->
+  <path d="M310 400 Q302 368 314 340 Q321 318 312 295" stroke="rgba(200,120,40,0.18)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M400 388 Q392 356 404 328 Q411 306 402 282" stroke="rgba(200,120,40,0.15)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M490 398 Q482 366 494 338 Q500 316 492 292" stroke="rgba(200,120,40,0.13)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Text overlay -->
+  <rect x="0" y="695" width="800" height="505" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#4A7A18" stroke-width="1.5" opacity="0.42"/>
+  <rect x="80" y="818" width="78" height="28" rx="14" fill="#C0522B"/>
+  <text x="119" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">BEEF</text>
+  <text x="400" y="928" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Beef &amp; Broccoli</text>
+  <text x="400" y="985" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Stir-Fry</text>
+  <line x1="200" y1="1010" x2="600" y2="1010" stroke="#6A9A28" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1052" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#8AB840" letter-spacing="0.5">⏱ 20 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

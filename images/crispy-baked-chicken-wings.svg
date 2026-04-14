@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0A00"/>
+      <stop offset="55%" stop-color="#3D1800"/>
+      <stop offset="100%" stop-color="#7A3A00"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#C07820" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#1A0A00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wing" cx="25%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#D09030"/>
+      <stop offset="100%" stop-color="#6A2800"/>
+    </radialGradient>
+    <radialGradient id="wing2" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#C07820"/>
+      <stop offset="100%" stop-color="#5A2000"/>
+    </radialGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A0A00" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#1A0A00" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#1A0A00"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Wire rack base -->
+  <rect x="130" y="540" width="540" height="200" rx="12" fill="#1A1A1A" opacity="0.92"/>
+  <rect x="142" y="552" width="516" height="176" rx="8" fill="#222"/>
+  <!-- Wire rack lines horizontal -->
+  <g stroke="#333" stroke-width="2.5">
+    <line x1="152" y1="572" x2="648" y2="572"/>
+    <line x1="152" y1="598" x2="648" y2="598"/>
+    <line x1="152" y1="624" x2="648" y2="624"/>
+    <line x1="152" y1="650" x2="648" y2="650"/>
+    <line x1="152" y1="676" x2="648" y2="676"/>
+    <line x1="152" y1="702" x2="648" y2="702"/>
+  </g>
+  <!-- Wire rack lines vertical -->
+  <g stroke="#333" stroke-width="2">
+    <line x1="192" y1="552" x2="192" y2="728"/>
+    <line x1="242" y1="552" x2="242" y2="728"/>
+    <line x1="292" y1="552" x2="292" y2="728"/>
+    <line x1="342" y1="552" x2="342" y2="728"/>
+    <line x1="392" y1="552" x2="392" y2="728"/>
+    <line x1="442" y1="552" x2="442" y2="728"/>
+    <line x1="492" y1="552" x2="492" y2="728"/>
+    <line x1="542" y1="552" x2="542" y2="728"/>
+    <line x1="592" y1="552" x2="592" y2="728"/>
+  </g>
+  <!-- Wing 1 (large center-left) -->
+  <path d="M218 458 Q248 402 298 398 Q338 396 358 432 Q374 462 362 506 Q348 548 308 556 Q265 560 240 526 Q218 496 218 458Z" fill="url(#wing)"/>
+  <path d="M228 466 Q250 420 292 416 Q326 414 342 444 Q356 470 344 508 Q332 542 298 548 Q262 550 240 520 Q224 496 228 466Z" fill="#B87020" opacity="0.5"/>
+  <!-- Wing crispy texture lines -->
+  <path d="M238 472 Q258 462 282 468" stroke="#8B4010" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M244 488 Q266 478 294 484" stroke="#8B4010" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <path d="M242 504 Q262 496 286 500" stroke="#8B4010" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Wing 2 (center) -->
+  <path d="M328 438 Q360 382 410 380 Q450 378 468 415 Q484 446 470 490 Q456 532 416 540 Q372 544 348 510 Q326 480 328 438Z" fill="url(#wing2)"/>
+  <path d="M338 446 Q362 398 404 396 Q438 394 454 424 Q468 452 455 490 Q442 524 408 530 Q370 532 350 502 Q334 476 338 446Z" fill="#C07828" opacity="0.5"/>
+  <path d="M350 452 Q372 442 398 448" stroke="#8B4010" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M346 470 Q370 460 398 466" stroke="#8B4010" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Wing 3 (right) -->
+  <path d="M438 448 Q468 394 518 392 Q558 390 576 425 Q592 458 577 502 Q562 542 522 549 Q478 553 455 520 Q434 490 438 448Z" fill="url(#wing)"/>
+  <path d="M448 456 Q470 410 512 408 Q546 406 562 436 Q576 466 561 504 Q548 536 514 542 Q474 544 454 514 Q438 488 448 456Z" fill="#B87020" opacity="0.5"/>
+  <path d="M460 462 Q480 452 504 458" stroke="#8B4010" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- Honey glaze dripping -->
+  <path d="M258 395 Q248 412 250 426" stroke="#D4A020" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M400 378 Q390 395 392 409" stroke="#E8B830" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.75"/>
+  <path d="M510 390 Q500 407 502 421" stroke="#D4A020" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.75"/>
+  <!-- Honey drip drops -->
+  <ellipse cx="252" cy="432" rx="8" ry="10" fill="#D4A020" opacity="0.8"/>
+  <ellipse cx="393" cy="415" rx="7" ry="9" fill="#E8B830" opacity="0.75"/>
+  <ellipse cx="503" cy="427" rx="7" ry="9" fill="#D4A020" opacity="0.78"/>
+  <!-- Sesame seeds on wings -->
+  <g fill="#F0EAD5" opacity="0.82">
+    <ellipse cx="265" cy="470" rx="4" ry="2" transform="rotate(-15 265 470)"/>
+    <ellipse cx="285" cy="462" rx="3.5" ry="1.8" transform="rotate(8 285 462)"/>
+    <ellipse cx="378" cy="455" rx="4" ry="2" transform="rotate(-10 378 455)"/>
+    <ellipse cx="395" cy="448" rx="3.5" ry="1.8" transform="rotate(12 395 448)"/>
+    <ellipse cx="478" cy="462" rx="4" ry="2" transform="rotate(-8 478 462)"/>
+    <ellipse cx="498" cy="455" rx="3.5" ry="1.8" transform="rotate(6 498 455)"/>
+  </g>
+  <!-- Sauce bowl -->
+  <ellipse cx="190" cy="472" rx="48" ry="38" fill="#F0E8D8" opacity="0.9"/>
+  <ellipse cx="190" cy="468" rx="40" ry="30" fill="#C03010" opacity="0.88"/>
+  <ellipse cx="190" cy="466" rx="32" ry="22" fill="#D84020" opacity="0.7"/>
+  <!-- Steam -->
+  <path d="M292 368 Q286 338 296 312 Q302 292 294 270" stroke="rgba(255,200,80,0.18)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M400 362 Q394 332 404 306 Q410 286 402 264" stroke="rgba(255,200,80,0.15)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Text overlay -->
+  <rect x="0" y="695" width="800" height="505" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#C07820" stroke-width="1.5" opacity="0.42"/>
+  <rect x="80" y="818" width="95" height="28" rx="14" fill="#C0522B"/>
+  <text x="128" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">CHICKEN</text>
+  <text x="400" y="928" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Crispy Baked</text>
+  <text x="400" y="985" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Chicken Wings</text>
+  <line x1="200" y1="1010" x2="600" y2="1010" stroke="#D4A020" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1052" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4A020" letter-spacing="0.5">⏱ 70 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

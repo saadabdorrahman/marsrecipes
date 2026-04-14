@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0808"/>
+      <stop offset="50%" stop-color="#3A1410"/>
+      <stop offset="100%" stop-color="#6A2820"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#C04828" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1A0808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bowl" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EEE4D8"/>
+    </radialGradient>
+    <radialGradient id="cream" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF8E8"/>
+      <stop offset="60%" stop-color="#F5E8C8"/>
+      <stop offset="100%" stop-color="#E8D0A8"/>
+    </radialGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A0808" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#1A0808" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#1A0808"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Bowl shadow -->
+  <ellipse cx="400" cy="575" rx="278" ry="52" fill="#0A0000" opacity="0.55"/>
+  <!-- Bowl body -->
+  <path d="M148 455 Q145 695 400 718 Q655 695 652 455 Q650 340 400 328 Q150 340 148 455Z" fill="url(#bowl)"/>
+  <path d="M158 460 Q155 688 400 710 Q645 688 642 460 Q640 350 400 338 Q160 350 158 460Z" fill="#FFFCF8"/>
+  <!-- Pasta sauce -->
+  <ellipse cx="400" cy="535" rx="228" ry="182" fill="url(#cream)"/>
+  <!-- Pasta noodles (fettuccine curves) -->
+  <g stroke="#D4A840" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.88">
+    <path d="M290 490 Q330 470 370 485 Q408 500 445 482 Q478 466 510 478"/>
+    <path d="M282 510 Q322 492 362 507 Q400 522 437 505 Q470 490 504 500"/>
+    <path d="M288 530 Q326 514 365 528 Q402 542 438 526 Q470 512 502 522"/>
+    <path d="M295 550 Q332 535 370 548 Q406 561 442 546 Q472 533 500 542"/>
+    <path d="M305 568 Q340 555 376 566 Q410 577 444 564 Q473 552 497 560"/>
+  </g>
+  <g stroke="#C89828" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6">
+    <path d="M294 500 Q334 482 374 496 Q412 510 448 493 Q480 478 508 488"/>
+    <path d="M300 540 Q338 524 376 538 Q412 551 448 535 Q478 521 504 530"/>
+  </g>
+  <!-- Sun-dried tomatoes -->
+  <ellipse cx="318" cy="492" rx="20" ry="14" fill="#C02818" transform="rotate(-18 318 492)" opacity="0.92"/>
+  <ellipse cx="348" cy="508" rx="16" ry="11" fill="#D03828" transform="rotate(10 348 508)" opacity="0.88"/>
+  <ellipse cx="470" cy="488" rx="18" ry="13" fill="#C02818" transform="rotate(14 470 488)" opacity="0.92"/>
+  <ellipse cx="496" cy="510" rx="15" ry="10" fill="#D03828" transform="rotate(-8 496 510)" opacity="0.88"/>
+  <ellipse cx="395" cy="558" rx="17" ry="12" fill="#C02818" transform="rotate(6 395 558)" opacity="0.9"/>
+  <!-- Spinach wilted -->
+  <g fill="#2A5A30" opacity="0.82">
+    <ellipse cx="282" cy="540" rx="22" ry="12" transform="rotate(-25 282 540)"/>
+    <ellipse cx="302" cy="556" rx="18" ry="10" transform="rotate(18 302 556)"/>
+    <ellipse cx="508" cy="535" rx="20" ry="11" transform="rotate(22 508 535)"/>
+    <ellipse cx="524" cy="550" rx="16" ry="9" transform="rotate(-18 524 550)"/>
+  </g>
+  <!-- Cream sauce swirls -->
+  <path d="M298 505 Q348 490 400 498 Q452 506 498 490" stroke="#FFFFF0" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M310 525 Q358 512 404 520 Q448 528 492 514" stroke="#FFFFF0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.42"/>
+  <!-- Parmesan shavings -->
+  <g fill="#FFF5D8" opacity="0.78">
+    <ellipse cx="362" cy="478" rx="14" ry="5" transform="rotate(-12 362 478)"/>
+    <ellipse cx="432" cy="474" rx="12" ry="4.5" transform="rotate(8 432 474)"/>
+    <ellipse cx="400" cy="545" rx="13" ry="5" transform="rotate(-5 400 545)"/>
+    <ellipse cx="335" cy="568" rx="11" ry="4" transform="rotate(15 335 568)"/>
+  </g>
+  <!-- Fresh basil -->
+  <g fill="#2A6A38" opacity="0.9">
+    <ellipse cx="380" cy="455" rx="14" ry="8" transform="rotate(-20 380 455)"/>
+    <ellipse cx="400" cy="447" rx="12" ry="7" transform="rotate(5 400 447)"/>
+    <ellipse cx="418" cy="454" rx="13" ry="8" transform="rotate(-8 418 454)"/>
+    <ellipse cx="392" cy="462" rx="10" ry="6" transform="rotate(12 392 462)"/>
+  </g>
+  <!-- Steam -->
+  <path d="M348 368 Q340 335 352 308 Q360 286 350 262" stroke="rgba(255,180,80,0.18)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M440 360 Q432 327 444 300 Q451 278 442 254" stroke="rgba(255,180,80,0.14)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Bowl rim highlight -->
+  <path d="M150 458 Q175 428 225 412 Q305 390 400 388 Q495 390 575 412 Q625 428 650 458" stroke="rgba(255,255,255,0.15)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Text overlay -->
+  <rect x="0" y="695" width="800" height="505" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#C04828" stroke-width="1.5" opacity="0.42"/>
+  <rect x="80" y="818" width="88" height="28" rx="14" fill="#8B2A8A"/>
+  <text x="124" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">PASTA</text>
+  <text x="400" y="922" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="42" font-weight="bold" fill="white">Creamy Sun-Dried</text>
+  <text x="400" y="978" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="42" font-weight="bold" fill="white">Tomato Pasta</text>
+  <line x1="200" y1="1005" x2="600" y2="1005" stroke="#D4882A" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1048" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4882A" letter-spacing="0.5">⏱ 25 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

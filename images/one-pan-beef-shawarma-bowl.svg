@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0A02"/>
+      <stop offset="50%" stop-color="#3A1200"/>
+      <stop offset="100%" stop-color="#C0522B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="50%">
+      <stop offset="0%" stop-color="#C0522B" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1A0A02" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bowl" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8D8C8"/>
+    </radialGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A0A02" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#1A0A02" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1A0A02"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Bowl outer shadow -->
+  <ellipse cx="400" cy="545" rx="278" ry="252" fill="#120600" opacity="0.6"/>
+  <!-- Bowl body -->
+  <path d="M155 470 Q155 760 400 760 Q645 760 645 470 Q645 360 400 348 Q155 360 155 470Z" fill="url(#bowl)"/>
+  <!-- Rice base -->
+  <ellipse cx="400" cy="570" rx="220" ry="155" fill="#F5EDD5"/>
+  <!-- Rice texture dots -->
+  <g fill="#E8D8B0" opacity="0.8">
+    <ellipse cx="340" cy="555" rx="6" ry="3" transform="rotate(-20 340 555)"/>
+    <ellipse cx="365" cy="545" rx="5" ry="2.5" transform="rotate(10 365 545)"/>
+    <ellipse cx="390" cy="558" rx="6" ry="3" transform="rotate(-5 390 558)"/>
+    <ellipse cx="415" cy="548" rx="5" ry="2.5" transform="rotate(15 415 548)"/>
+    <ellipse cx="440" cy="562" rx="6" ry="3" transform="rotate(-25 440 562)"/>
+    <ellipse cx="355" cy="572" rx="5" ry="2.5" transform="rotate(8 355 572)"/>
+    <ellipse cx="380" cy="580" rx="6" ry="3" transform="rotate(-12 380 580)"/>
+    <ellipse cx="405" cy="575" rx="5" ry="2.5" transform="rotate(18 405 575)"/>
+    <ellipse cx="430" cy="568" rx="6" ry="3" transform="rotate(-8 430 568)"/>
+    <ellipse cx="348" cy="590" rx="5" ry="2.5"/>
+    <ellipse cx="420" cy="588" rx="5" ry="2.5" transform="rotate(12 420 588)"/>
+  </g>
+  <!-- Beef strips -->
+  <g fill="#5A2200">
+    <path d="M295 490 Q315 475 340 482 Q358 490 352 510 Q346 528 325 530 Q302 528 295 510 Q290 498 295 490Z"/>
+    <path d="M348 478 Q370 462 398 470 Q420 478 415 500 Q408 520 385 522 Q360 520 350 500 Q344 488 348 478Z"/>
+    <path d="M402 485 Q425 470 452 478 Q472 488 466 508 Q459 526 436 528 Q411 526 403 506 Q397 494 402 485Z"/>
+    <path d="M320 508 Q342 495 368 504 Q388 514 382 534 Q374 550 350 552 Q326 548 318 530 Q312 518 320 508Z"/>
+    <path d="M374 502 Q396 490 422 500 Q442 510 436 530 Q428 548 404 550 Q380 546 372 526 Q366 512 374 502Z"/>
+  </g>
+  <!-- Beef highlights (sear) -->
+  <g fill="#8B3A00" opacity="0.6">
+    <path d="M300 496 Q314 490 330 494 Q342 498 338 510 Q330 520 315 518 Q302 514 300 504Z"/>
+    <path d="M352 485 Q368 478 388 484 Q400 490 395 504 Q386 516 368 514 Q353 508 352 496Z"/>
+  </g>
+  <!-- Garlic sauce drizzle -->
+  <path d="M310 465 Q350 452 400 460 Q445 468 488 455" stroke="#FFFFF0" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.75"/>
+  <path d="M330 478 Q370 468 410 474 Q448 480 475 468" stroke="#FFFFF0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <!-- Tomato slices -->
+  <circle cx="290" cy="545" r="18" fill="#C0392B" opacity="0.9"/>
+  <circle cx="290" cy="545" r="12" fill="#E74C3C" opacity="0.7"/>
+  <circle cx="510" cy="540" r="16" fill="#C0392B" opacity="0.9"/>
+  <circle cx="510" cy="540" r="10" fill="#E74C3C" opacity="0.7"/>
+  <!-- Parsley topping -->
+  <g fill="#2D6A3F" opacity="0.9">
+    <circle cx="378" cy="445" r="6"/><circle cx="390" cy="438" r="5"/><circle cx="400" cy="446" r="6"/>
+    <circle cx="383" cy="453" r="4.5"/><circle cx="412" cy="442" r="5"/><circle cx="420" cy="435" r="5.5"/>
+    <circle cx="428" cy="445" r="4.5"/><circle cx="395" cy="434" r="4"/>
+  </g>
+  <!-- Bowl rim highlight -->
+  <path d="M158 472 Q180 445 220 432 Q300 412 400 410 Q500 412 580 432 Q620 445 642 472" stroke="rgba(255,255,255,0.25)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Text overlay -->
+  <rect x="0" y="700" width="800" height="500" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#C0522B" stroke-width="1.5" opacity="0.4"/>
+  <rect x="80" y="818" width="78" height="28" rx="14" fill="#C0522B"/>
+  <text x="119" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">BEEF</text>
+  <text x="400" y="928" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">One-Pan Beef</text>
+  <text x="400" y="985" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Shawarma Bowl</text>
+  <line x1="200" y1="1010" x2="600" y2="1010" stroke="#D4882A" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1052" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4882A" letter-spacing="0.5">⏱ 40 MIN  ·  ★★★★★ 4.8</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

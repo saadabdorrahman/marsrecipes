@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0800"/>
+      <stop offset="40%" stop-color="#2E1200"/>
+      <stop offset="100%" stop-color="#5A2800"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="30%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#C06820" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1A0800" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="75%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#8B3A10" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#1A0800" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EEE4D8"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#g1)"/>
+  <rect width="1600" height="900" fill="url(#g2)"/>
+  <!-- Decorative plate left -->
+  <ellipse cx="280" cy="480" rx="220" ry="195" fill="#0A0400" opacity="0.6"/>
+  <ellipse cx="280" cy="472" rx="208" ry="183" fill="url(#plate)"/>
+  <ellipse cx="280" cy="470" rx="190" ry="166" fill="#FAF5F0" opacity="0.9"/>
+  <!-- Food on left plate -->
+  <ellipse cx="280" cy="490" rx="165" ry="130" fill="#C06820" opacity="0.85"/>
+  <path d="M218 450 Q248 420 290 428 Q326 436 338 462 Q348 488 330 510 Q310 530 278 528 Q242 522 222 496 Q205 472 218 450Z" fill="#D08030"/>
+  <path d="M290 440 Q318 416 356 424 Q388 432 398 458 Q406 482 388 504 Q368 524 336 520 Q302 514 284 490 Q270 468 290 440Z" fill="#C07028"/>
+  <!-- Herbs on left plate -->
+  <g fill="#2A6A30" opacity="0.9">
+    <circle cx="268" cy="418" r="7"/><circle cx="282" cy="408" r="6"/><circle cx="294" cy="418" r="7"/>
+    <circle cx="273" cy="426" r="5"/><circle cx="304" cy="413" r="6"/>
+  </g>
+  <!-- Decorative pan center-right -->
+  <ellipse cx="920" cy="450" rx="265" ry="240" fill="#050202" opacity="0.95"/>
+  <ellipse cx="920" cy="448" rx="250" ry="224" fill="#0E0606"/>
+  <ellipse cx="920" cy="458" rx="215" ry="178" fill="#D4A840" opacity="0.72"/>
+  <ellipse cx="918" cy="452" rx="195" ry="160" fill="#E8B848" opacity="0.4"/>
+  <!-- Shrimp in pan -->
+  <path d="M854 418 Q840 398 848 382 Q858 364 876 368 Q892 372 892 390 Q893 408 878 418 Q865 428 854 418Z" fill="#F07855"/>
+  <path d="M918 410 Q904 390 912 374 Q922 357 940 361 Q956 365 956 382 Q957 400 942 410 Q929 421 918 410Z" fill="#F07855"/>
+  <path d="M978 418 Q964 398 972 382 Q982 364 1000 368 Q1016 372 1016 390 Q1017 408 1002 418 Q989 428 978 418Z" fill="#F07855"/>
+  <path d="M888 470 Q874 450 882 434 Q892 416 910 420 Q926 424 926 442 Q927 460 912 470 Q899 481 888 470Z" fill="#F07855"/>
+  <path d="M948 465 Q934 445 942 429 Q952 412 970 416 Q986 420 986 438 Q987 456 972 466 Q959 477 948 465Z" fill="#F07855"/>
+  <!-- Garlic butter -->
+  <g fill="#F5EDD5" opacity="0.75">
+    <ellipse cx="870" cy="448" rx="10" ry="5" transform="rotate(-12 870 448)"/>
+    <ellipse cx="965" cy="444" rx="9" ry="4.5" transform="rotate(8 965 444)"/>
+    <ellipse cx="916" cy="500" rx="10" ry="5" transform="rotate(3 916 500)"/>
+  </g>
+  <!-- Decorative bowl far right -->
+  <ellipse cx="1380" cy="475" rx="200" ry="178" fill="#060204" opacity="0.6"/>
+  <ellipse cx="1380" cy="468" rx="188" ry="166" fill="#F8F4EE" opacity="0.92"/>
+  <ellipse cx="1380" cy="478" rx="165" ry="140" fill="#E87828" opacity="0.8"/>
+  <ellipse cx="1378" cy="472" rx="148" ry="125" fill="#F08828" opacity="0.38"/>
+  <g fill="#2A6A30" opacity="0.9">
+    <circle cx="1370" cy="405" r="6"/><circle cx="1382" cy="397" r="5.5"/><circle cx="1392" cy="405" r="6"/>
+    <circle cx="1375" cy="413" r="4.5"/><circle cx="1400" cy="410" r="5"/>
+  </g>
+  <!-- Subtle spice dots scattered -->
+  <g fill="#D4780A" opacity="0.15">
+    <circle cx="500" cy="200" r="4"/>
+    <circle cx="650" cy="320" r="3"/>
+    <circle cx="1100" cy="180" r="3.5"/>
+    <circle cx="1250" cy="300" r="4"/>
+    <circle cx="400" cy="700" r="3"/>
+    <circle cx="1150" cy="720" r="3.5"/>
+  </g>
+</svg>

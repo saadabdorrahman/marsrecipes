@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0A04"/>
+      <stop offset="100%" stop-color="#3A1A08"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#8B4A10" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#0E0A04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="steak" cx="25%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#8B2808"/>
+      <stop offset="100%" stop-color="#3A0E02"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <!-- Cast iron pan -->
+  <ellipse cx="400" cy="295" rx="270" ry="238" fill="#060402" opacity="0.97"/>
+  <ellipse cx="400" cy="293" rx="255" ry="222" fill="#0C0604"/>
+  <!-- Steak bites / beef pieces -->
+  <rect x="294" y="240" width="72" height="68" rx="10" fill="url(#steak)"/>
+  <rect x="380" y="228" width="70" height="66" rx="10" fill="url(#steak)"/>
+  <rect x="464" y="240" width="68" height="68" rx="10" fill="url(#steak)"/>
+  <rect x="330" y="314" width="70" height="66" rx="10" fill="url(#steak)"/>
+  <rect x="414" y="310" width="68" height="66" rx="10" fill="url(#steak)"/>
+  <!-- Sear marks -->
+  <g stroke="#1A0402" stroke-width="3" fill="none" opacity="0.7">
+    <line x1="304" y1="258" x2="356" y2="258"/>
+    <line x1="304" y1="272" x2="356" y2="272"/>
+    <line x1="390" y1="246" x2="440" y2="246"/>
+    <line x1="390" y1="260" x2="440" y2="260"/>
+  </g>
+  <!-- Butter pools -->
+  <ellipse cx="355" cy="308" rx="22" ry="10" fill="#E8C030" opacity="0.5"/>
+  <ellipse cx="452" cy="302" rx="18" ry="8" fill="#E8C030" opacity="0.45"/>
+  <!-- Rosemary -->
+  <g stroke="#2A5A18" stroke-width="2" fill="none" opacity="0.85">
+    <line x1="305" y1="215" x2="350" y2="165"/>
+    <line x1="310" y1="208" x2="304" y2="202"/><line x1="315" y1="203" x2="321" y2="197"/>
+    <line x1="320" y1="196" x2="314" y2="190"/><line x1="326" y1="190" x2="332" y2="184"/>
+    <line x1="332" y1="184" x2="326" y2="178"/>
+  </g>
+  <!-- Pan handle -->
+  <rect x="652" y="278" width="72" height="24" rx="12" fill="#0A0604"/>
+  <!-- Text -->
+  <rect x="0" y="440" width="800" height="160" fill="#0E0A04" opacity="0.88"/>
+  <text x="400" y="502" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="bold" fill="white">Beef</text>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#D4882A" letter-spacing="1">8 RECIPES</text>
+</svg>

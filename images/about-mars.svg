@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0A00"/>
+      <stop offset="100%" stop-color="#4A2400"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#C07820" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1A0A00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="avatar" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#E8C080"/>
+      <stop offset="100%" stop-color="#C09050"/>
+    </radialGradient>
+    <clipPath id="circle">
+      <circle cx="400" cy="310" r="185"/>
+    </clipPath>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#glow)"/>
+  <!-- Avatar circle background -->
+  <circle cx="400" cy="310" r="195" fill="#2A1400" opacity="0.8"/>
+  <circle cx="400" cy="310" r="185" fill="url(#avatar)"/>
+  <!-- Simplified chef silhouette -->
+  <!-- Chef hat -->
+  <rect x="332" y="148" width="136" height="18" rx="9" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="344" y="100" width="112" height="52" rx="22" fill="#FFFFFF" opacity="0.95"/>
+  <ellipse cx="400" cy="100" rx="48" ry="22" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Head -->
+  <ellipse cx="400" cy="220" rx="62" ry="68" fill="#E8C080"/>
+  <!-- Neck -->
+  <rect x="376" y="278" width="48" height="36" rx="8" fill="#D4A870"/>
+  <!-- Shoulders / chef coat -->
+  <path d="M220 400 Q258 318 330 308 Q360 306 400 310 Q440 306 470 308 Q542 318 580 400 Q600 440 598 500 Q596 520 580 522 Q400 524 220 522 Q204 520 202 500 Q200 440 220 400Z" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Chef coat collar -->
+  <path d="M346 308 Q370 340 400 340 Q430 340 454 308" fill="#F0F0F0" opacity="0.9"/>
+  <path d="M346 308 Q360 360 400 360 Q440 360 454 308" fill="#E8E8E8" opacity="0.5"/>
+  <!-- Buttons -->
+  <g fill="#D4882A" opacity="0.7">
+    <circle cx="400" cy="375" r="5"/>
+    <circle cx="400" cy="400" r="5"/>
+    <circle cx="400" cy="425" r="5"/>
+  </g>
+  <!-- Arms with wooden spoon -->
+  <path d="M220 420 Q198 450 205 490 Q210 510 228 515 Q244 518 250 498 Q255 478 270 458" fill="#D4A870" opacity="0.9"/>
+  <rect x="192" y="505" width="76" height="12" rx="6" fill="#C8A060" transform="rotate(-30 192 505)"/>
+  <!-- Spoon bowl -->
+  <ellipse cx="185" cy="540" rx="16" ry="10" fill="#D4A060" transform="rotate(-30 185 540)" opacity="0.9"/>
+  <!-- Steam from spoon -->
+  <path d="M175 518 Q168 498 176 480 Q182 466 175 452" stroke="#D4A020" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Kitchen items around -->
+  <!-- Small herb illustration top right -->
+  <g fill="#2A6A30" opacity="0.65" transform="translate(560, 140)">
+    <circle cx="0" cy="0" r="12"/><circle cx="14" cy="-8" r="10"/><circle cx="22" cy="4" r="11"/>
+    <circle cx="5" cy="12" r="9"/>
+    <line x1="8" y1="18" x2="8" y2="45" stroke="#4A8A40" stroke-width="2.5" fill="none"/>
+  </g>
+  <!-- Text area -->
+  <rect x="0" y="580" width="800" height="220" fill="#1A0A00" opacity="0.9"/>
+  <text x="400" y="642" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="34" font-weight="bold" fill="white">Hi, I'm Mars!</text>
+  <text x="400" y="685" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#D4A020" letter-spacing="0.5">Home cook · Recipe developer</text>
+  <line x1="250" y1="710" x2="550" y2="710" stroke="#D4A020" stroke-width="1" opacity="0.5"/>
+  <text x="400" y="748" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="rgba(255,255,255,0.55)" letter-spacing="3">MARSRECIPES.COM</text>
+</svg>

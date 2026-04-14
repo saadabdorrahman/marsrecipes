@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0808"/>
+      <stop offset="100%" stop-color="#4A1410"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#C04828" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#1A0808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bowl" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EEE4D8"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <!-- Bowl -->
+  <ellipse cx="400" cy="295" rx="255" ry="232" fill="#0A0402" opacity="0.6"/>
+  <ellipse cx="400" cy="288" rx="242" ry="218" fill="url(#bowl)"/>
+  <ellipse cx="400" cy="286" rx="228" ry="204" fill="#FFFCF8" opacity="0.9"/>
+  <!-- Pasta sauce -->
+  <ellipse cx="400" cy="300" rx="200" ry="165" fill="#F5E0B0" opacity="0.9"/>
+  <!-- Fettuccine noodles -->
+  <g stroke="#D4A840" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.88">
+    <path d="M284 268 Q322 248 362 262 Q400 276 436 258 Q468 242 500 254"/>
+    <path d="M277 288 Q314 270 354 283 Q392 296 427 279 Q458 264 490 275"/>
+    <path d="M280 308 Q316 291 356 304 Q394 317 428 300 Q458 286 488 296"/>
+    <path d="M286 326 Q320 310 358 322 Q394 334 427 318 Q456 305 484 315"/>
+    <path d="M295 344 Q328 330 364 340 Q398 350 430 336 Q458 324 482 332"/>
+  </g>
+  <g stroke="#C89828" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.55">
+    <path d="M288 278 Q326 260 366 273 Q404 286 440 268 Q470 253 498 264"/>
+    <path d="M284 318 Q320 302 358 314 Q394 326 428 310 Q456 296 484 306"/>
+  </g>
+  <!-- Sun-dried tomatoes -->
+  <ellipse cx="316" cy="272" rx="18" ry="12" fill="#C02818" transform="rotate(-15 316 272)" opacity="0.9"/>
+  <ellipse cx="468" cy="266" rx="16" ry="11" fill="#C02818" transform="rotate(10 468 266)" opacity="0.9"/>
+  <ellipse cx="392" cy="350" rx="17" ry="11" fill="#C02818" transform="rotate(5 392 350)" opacity="0.9"/>
+  <!-- Parmesan -->
+  <ellipse cx="358" cy="256" rx="14" ry="5" fill="#FFF5D8" transform="rotate(-10 358 256)" opacity="0.78"/>
+  <ellipse cx="425" cy="338" rx="12" ry="4.5" fill="#FFF5D8" transform="rotate(8 425 338)" opacity="0.78"/>
+  <!-- Basil -->
+  <g fill="#2A6A38" opacity="0.9">
+    <ellipse cx="388" cy="228" rx="13" ry="7" transform="rotate(-18 388 228)"/>
+    <ellipse cx="406" cy="220" rx="11" ry="6" transform="rotate(5 406 220)"/>
+    <ellipse cx="420" cy="228" rx="12" ry="7" transform="rotate(-8 420 228)"/>
+  </g>
+  <!-- Text -->
+  <rect x="0" y="440" width="800" height="160" fill="#1A0808" opacity="0.88"/>
+  <text x="400" y="502" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="bold" fill="white">Pasta</text>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#D4882A" letter-spacing="1">6 RECIPES</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0D05"/>
+      <stop offset="55%" stop-color="#3D1C00"/>
+      <stop offset="100%" stop-color="#6B3A1A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#C0722B" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1A0D05" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ck" cx="30%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#E09030"/>
+      <stop offset="100%" stop-color="#7B3F00"/>
+    </radialGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A0D05" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#1A0D05" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1A0D05"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Pan -->
+  <ellipse cx="400" cy="510" rx="305" ry="285" fill="#0D0705" opacity="0.95"/>
+  <ellipse cx="400" cy="510" rx="290" ry="270" fill="#180E06"/>
+  <!-- Cream sauce -->
+  <ellipse cx="400" cy="520" rx="250" ry="215" fill="#FFF5EB" opacity="0.97"/>
+  <ellipse cx="395" cy="515" rx="220" ry="185" fill="#FDF0E2" opacity="0.85"/>
+  <!-- Chicken thigh 1 -->
+  <path d="M255 435 Q280 385 335 395 Q390 405 400 448 Q418 490 398 532 Q375 568 335 562 Q288 554 262 518 Q242 488 255 435Z" fill="url(#ck)"/>
+  <path d="M270 450 Q290 432 322 440 Q352 448 362 472 Q374 498 358 522 Q340 545 310 543 Q282 538 268 514 Q255 490 270 450Z" fill="#C07828" opacity="0.45"/>
+  <path d="M282 462 Q298 448 316 453" stroke="#7B3F00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.65"/>
+  <path d="M290 480 Q308 465 328 471" stroke="#7B3F00" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <!-- Chicken thigh 2 -->
+  <path d="M398 452 Q428 408 474 420 Q518 432 528 468 Q538 508 516 540 Q494 565 452 562 Q410 554 396 520 Q384 490 398 452Z" fill="url(#ck)"/>
+  <path d="M412 465 Q435 448 462 456 Q488 464 496 488 Q502 512 486 530 Q465 548 440 545 Q414 538 402 513 Q393 490 412 465Z" fill="#D08030" opacity="0.4"/>
+  <!-- Garlic cloves -->
+  <ellipse cx="315" cy="590" rx="19" ry="14" fill="#F5F0E0" transform="rotate(-18 315 590)"/>
+  <ellipse cx="344" cy="602" rx="16" ry="11" fill="#EDE8D8" transform="rotate(12 344 602)"/>
+  <ellipse cx="462" cy="586" rx="17" ry="13" fill="#F5F0E0" transform="rotate(-6 462 586)"/>
+  <ellipse cx="490" cy="599" rx="15" ry="10" fill="#EDE8D8" transform="rotate(22 490 599)"/>
+  <!-- Cream sauce drizzle -->
+  <path d="M275 498 Q320 480 385 494 Q435 506 468 492 Q508 478 535 494" stroke="#FFFAF3" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M305 522 Q352 508 405 520 Q450 530 485 515" stroke="#FFFAF3" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Parsley -->
+  <g fill="#3D7A50" opacity="0.88">
+    <circle cx="375" cy="418" r="5.5"/><circle cx="386" cy="412" r="4.5"/><circle cx="394" cy="420" r="5.5"/>
+    <circle cx="380" cy="426" r="4"/><circle cx="408" cy="416" r="4.5"/><circle cx="418" cy="410" r="5"/>
+    <circle cx="426" cy="420" r="4"/><circle cx="402" cy="408" r="3.5"/>
+  </g>
+  <!-- Steam -->
+  <path d="M338 386 Q332 355 342 328 Q348 308 340 286" stroke="rgba(255,255,255,0.22)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M400 378 Q394 346 404 318 Q410 296 402 272" stroke="rgba(255,255,255,0.18)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M462 386 Q456 354 466 326 Q474 304 465 282" stroke="rgba(255,255,255,0.16)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Herbs scattered -->
+  <g fill="#4A7C59" opacity="0.55">
+    <circle cx="238" cy="558" r="3"/><circle cx="252" cy="546" r="2.5"/><circle cx="552" cy="553" r="3"/><circle cx="542" cy="542" r="2"/>
+  </g>
+  <!-- Text overlay -->
+  <rect x="0" y="680" width="800" height="520" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#C0522B" stroke-width="1.5" opacity="0.4"/>
+  <rect x="80" y="818" width="95" height="28" rx="14" fill="#C0522B"/>
+  <text x="128" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">CHICKEN</text>
+  <text x="400" y="932" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="46" font-weight="bold" fill="white">Easy Creamy</text>
+  <text x="400" y="990" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="46" font-weight="bold" fill="white">Garlic Chicken</text>
+  <line x1="200" y1="1014" x2="600" y2="1014" stroke="#D4882A" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1055" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4882A" letter-spacing="0.5">⏱ 30 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1108" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

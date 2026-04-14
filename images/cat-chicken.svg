@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0A00"/>
+      <stop offset="100%" stop-color="#5A2800"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#C07820" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1A0A00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ck" cx="25%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#E8A030"/>
+      <stop offset="100%" stop-color="#7A3800"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <!-- Pan -->
+  <ellipse cx="400" cy="310" rx="270" ry="240" fill="#080402" opacity="0.96"/>
+  <ellipse cx="400" cy="308" rx="255" ry="224" fill="#100806"/>
+  <!-- Sauce -->
+  <ellipse cx="400" cy="322" rx="218" ry="175" fill="#D4A030" opacity="0.7"/>
+  <!-- Two chicken thighs -->
+  <path d="M310 265 Q338 228 385 238 Q425 248 428 285 Q430 318 405 338 Q375 355 340 345 Q305 330 298 298 Q293 272 310 265Z" fill="url(#ck)"/>
+  <path d="M375 258 Q402 222 448 232 Q488 242 490 278 Q492 312 467 332 Q438 348 403 338 Q368 325 362 293 Q357 268 375 258Z" fill="url(#ck)"/>
+  <!-- Herbs -->
+  <g fill="#2A6A30" opacity="0.9">
+    <circle cx="388" cy="222" r="6"/><circle cx="402" cy="214" r="5.5"/><circle cx="414" cy="222" r="6"/>
+    <circle cx="393" cy="229" r="4.5"/><circle cx="422" cy="218" r="5"/>
+  </g>
+  <!-- Pan handle -->
+  <rect x="652" y="290" width="72" height="24" rx="12" fill="#0E0806"/>
+  <!-- Text -->
+  <rect x="0" y="440" width="800" height="160" fill="#1A0A00" opacity="0.88"/>
+  <text x="400" y="502" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="bold" fill="white">Chicken</text>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#D4A020" letter-spacing="1">12 RECIPES</text>
+</svg>
