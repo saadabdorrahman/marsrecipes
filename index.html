@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- DNS Prefetch for external services -->
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -10,14 +15,14 @@
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png">
 
-  <meta name="description" content="Mars Recipes – Discover trending and viral cooking recipes ready in 30 minutes or less. The hottest recipes everyone's making right now.">
+  <meta name="description" content="Easy 30-minute dinner recipes that are quick, delicious, and tested at home. Trending weeknight meals ready in 30 minutes or less - perfect for busy families.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Mars Recipes">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Mars Recipes – Easy Recipes the Whole Family Will Love">
-   <meta property="og:description" content="Discover trending and viral cooking recipes ready in 30 minutes or less. The hottest recipes everyone's making right now.">
+  <meta property="og:title" content="Easy 30-Minute Dinner Recipes - Quick & Delicious">
+   <meta property="og:description" content="Discover easy 30-minute dinner recipes that are quick, delicious, and tested at home. Trending weeknight meals perfect for busy families.">
   <meta property="og:image" content="https://www.marsrecipes.com/images/easy-chicken-tikka-masala.jpg.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -32,12 +37,17 @@
 
   <link rel="canonical" href="https://www.marsrecipes.com/">
 
-  <!-- Fonts -->
+  <!-- Fonts with optimized loading -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.min.css">
+
+  <!-- Preload critical hero images for faster LCP -->
+  <link rel="preload" as="image" href="images/spicy-garlic-butter-shrimp.jpg.png" fetchpriority="high">
+  <link rel="preload" as="image" href="images/easy-chicken-tikka-masala.jpg.png" fetchpriority="high">
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DFPERXJMVY"></script>
@@ -146,8 +156,8 @@
       </div>
 
       <h1 class="hero__headline">
-        Real Food.<br>
-        <span class="hero__headline-em">Big Flavors.</span>
+        Easy 30-Minute<br>
+        <span class="hero__headline-em">Dinner Recipes</span>
       </h1>
 
       <p class="hero__sub">
@@ -187,16 +197,16 @@
     <div class="hero__visual" aria-hidden="true">
       <div class="hero__orb"></div>
       <div class="hero__card hero__card--b">
-        <img src="images/garlic-butter-steak-bites.jpg.png" alt="">
+        <img src="images/garlic-butter-steak-bites.jpg.png" alt="Garlic butter steak bites - quick and delicious 30-minute beef recipe">
       </div>
       <div class="hero__card hero__card--c">
-        <img src="images/crispy-honey-garlic-salmon.jpg.png" alt="">
+        <img src="images/crispy-honey-garlic-salmon.jpg.png" alt="Crispy honey garlic salmon - easy weeknight seafood dinner ready in 25 minutes">
       </div>
       <div class="hero__card hero__card--d">
-        <img src="images/creamy-sun-dried-tomato-pasta.jpg.png" alt="">
+        <img src="images/creamy-sun-dried-tomato-pasta.jpg.png" alt="Creamy sun dried tomato pasta - simple Italian-inspired dinner recipe">
       </div>
       <div class="hero__card hero__card--a">
-        <img src="images/easy-chicken-tikka-masala.jpg.png" alt="">
+        <img src="images/easy-chicken-tikka-masala.jpg.png" alt="Easy chicken tikka masala - restaurant quality Indian curry made at home in 40 minutes" loading="eager" fetchpriority="high">
         <div class="hero__card-label">
           <span>Chicken Tikka Masala</span>
           <span class="hero__card-rating">★ 4.9</span>

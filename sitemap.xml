@@ -17,6 +17,50 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Pillar Pages (SEO Hub Content) -->
+  <url>
+    <loc>https://www.marsrecipes.com/pillar-quick-chicken-recipes.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.marsrecipes.com/pillar-best-seafood-dinner-recipes.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.marsrecipes.com/pillar-easy-weeknight-beef-meals.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Cluster Pages (Secondary Hub Content) -->
+  <url>
+    <loc>https://www.marsrecipes.com/cluster-30-minute-dinner-recipes.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.marsrecipes.com/cluster-high-protein-dinner-recipes.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.marsrecipes.com/cluster-sheet-pan-dinner-recipes.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
   <!-- Recipe pages -->
   <url>
     <loc>https://www.marsrecipes.com/recipes/easy-creamy-garlic-chicken.html</loc>
