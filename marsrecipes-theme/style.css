@@ -1,0 +1,14 @@
+/*
+Theme Name: Mars Recipes
+Theme URI: https://www.marsrecipes.com
+Author: Mars
+Author URI: https://www.marsrecipes.com/about
+Description: A custom WordPress theme for Mars Recipes – easy weeknight dinner recipes in 30 minutes or less.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: marsrecipes
+Tags: food, recipes, blog, custom, one-column, two-columns
+*/
+
+/* This file intentionally left minimal — all styles are loaded via functions.php from assets/css/style.min.css */
