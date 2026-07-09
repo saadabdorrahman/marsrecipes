@@ -22,6 +22,32 @@ cat_map = {
     'one-pan-honey-butter-chicken': 'chicken',
     'smoky-paprika-baked-salmon': 'seafood',
     'spicy-garlic-butter-shrimp': 'seafood',
+    # --- added from the 2026-07 marsrecipes.com live-site sync (19 new recipes) ---
+    'baked-feta-pasta': 'pasta',
+    'bang-bang-shrimp': 'seafood',
+    'birria-style-beef-tacos': 'beef',
+    'cajun-chicken-pasta': 'chicken',
+    'chicken-penne-pasta': 'chicken',
+    'cowboy-butter-chicken-tenders': 'chicken',
+    'creamy-garlic-parmesan-pasta': 'pasta',
+    'crockpot-marry-me-chicken-pasta': 'chicken',
+    'garlic-butter-chicken-bites-with-creamy-parmesan-pasta': 'chicken',
+    'garlic-butter-salmon-bites': 'seafood',
+    'honey-sriracha-salmon-bowls': 'seafood',
+    'korean-ground-beef-bowl': 'beef',
+    'marry-me-chicken-pasta': 'chicken',
+    'marry-me-shrimp': 'seafood',
+    'ricotta-meatballs': 'beef',
+    'smash-burger-tacos': 'beef',
+    'tuscan-gnocchi': 'pasta',
+    # live WP taxonomy for these two is "Meal Prep" / "Quick", which this WXR
+    # generator's cat_map has never used as a value (see `cats` list below —
+    # only chicken/beef/seafood/pasta have ever been assigned in practice).
+    # Mapped to the closest real ingredient-driven category instead of adding
+    # a 5th value; a human should decide whether to formally add a
+    # "meal-prep" WXR taxonomy term to this script.
+    'vegan-casserole-dish-recipes': 'pasta',  # short pasta is the base ingredient
+    'how-to-make-homemade-cottage-cheese': 'chicken',  # no fitting category; neutral default
 }
 
 badge_map = {
@@ -33,6 +59,10 @@ badge_map = {
     'creamy-tuscan-shrimp': 'new',
     'one-pan-honey-butter-chicken': 'new',
     'coconut-chicken-curry': 'popular',
+    # live _recipe_badge meta was "quick" for these three
+    'cajun-chicken-pasta': 'quick',
+    'marry-me-shrimp': 'quick',
+    'tuscan-gnocchi': 'quick',
 }
 
 def iso_to_minutes(iso):

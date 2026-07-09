@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0A04"/>
+      <stop offset="50%" stop-color="#2A1408"/>
+      <stop offset="100%" stop-color="#7A3810"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#D4801A" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0E0A04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="food" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#C05018"/>
+      <stop offset="60%" stop-color="#8B2808"/>
+      <stop offset="100%" stop-color="#3A0E02"/>
+    </radialGradient>
+    <linearGradient id="textbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E0A04" stop-opacity="0"/>
+      <stop offset="38%" stop-color="#0E0A04" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0E0A04"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="url(#glow)"/>
+  <!-- Plate shadow -->
+  <ellipse cx="400" cy="570" rx="282" ry="240" fill="#000000" opacity="0.35"/>
+  <!-- Plate body -->
+  <path d="M150 470 Q148 700 400 720 Q652 700 650 470 Q650 358 400 345 Q150 358 150 470Z" fill="#F5EDE0"/>
+  <path d="M160 475 Q158 695 400 715 Q642 695 640 475 Q640 368 400 355 Q160 368 160 475Z" fill="#FFFAF3"/>
+  <!-- Food fill -->
+  <ellipse cx="400" cy="545" rx="235" ry="185" fill="url(#food)"/>
+  <!-- Chunks -->
+  <path d="M312 488 Q328 468 355 475 Q375 482 372 502 Q368 520 348 524 Q325 524 314 508 Q307 496 312 488Z" fill="#3A0E02" opacity="0.85"/>
+  <path d="M428 482 Q444 462 470 470 Q490 477 488 498 Q484 516 464 520 Q441 520 430 504 Q422 492 428 482Z" fill="#3A0E02" opacity="0.85"/>
+  <path d="M368 540 Q384 520 410 528 Q430 535 428 555 Q424 573 404 577 Q381 577 370 561 Q362 549 368 540Z" fill="#3A0E02" opacity="0.7"/>
+  <!-- Garnish -->
+  <g fill="#2A6A30" opacity="0.85">
+    <circle cx="382" cy="455" r="5.5"/><circle cx="395" cy="448" r="4.5"/><circle cx="404" cy="456" r="5.5"/>
+    <circle cx="387" cy="462" r="4"/><circle cx="416" cy="452" r="4.5"/>
+  </g>
+  <!-- Side garnish -->
+  <ellipse cx="220" cy="562" rx="50" ry="42" fill="#F5EDD5" opacity="0.85"/>
+  <!-- Plate rim highlight -->
+  <path d="M152 472 Q175 445 218 430 Q300 410 400 408 Q500 410 582 430 Q625 445 648 472" stroke="rgba(255,255,255,0.18)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Text overlay -->
+  <rect x="0" y="695" width="800" height="505" fill="url(#textbg)"/>
+  <line x1="80" y1="858" x2="720" y2="858" stroke="#D4801A" stroke-width="1.5" opacity="0.42"/>
+  <rect x="80" y="818" width="134" height="28" rx="14" fill="#9C3F1F"/>
+  <text x="147.0" y="837" text-anchor="middle" font-family="Arial,sans-serif" font-size="11.5" font-weight="700" fill="white" letter-spacing="1.2">BEEF</text>
+  <text x="400" y="928" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Korean Ground</text>
+  <text x="400" y="985" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="44" font-weight="bold" fill="white">Beef Bowl</text>
+  <line x1="200" y1="1010" x2="600" y2="1010" stroke="#D4801A" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="1052" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#D4801A" letter-spacing="0.5">⏱ 15 MIN  ·  ★★★★★ 4.9</text>
+  <text x="400" y="1105" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,0.38)" letter-spacing="4">MARSRECIPES.COM</text>
+</svg>

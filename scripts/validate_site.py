@@ -91,7 +91,11 @@ def check_page(page):
     path = os.path.join(BASE, page)
     with open(path, "r", encoding="utf-8") as f:
         content = f.read()
-    is_recipe = page.startswith("recipes/") and page != "recipes/index.html"
+    is_recipe = (
+        page.startswith("recipes/")
+        and page != "recipes/index.html"
+        and 'id="recipe-card"' in content
+    )
     is_404 = page == "404.html"
 
     # --- title / meta description ---
