@@ -1,0 +1,8 @@
+{
+  "name": "mars-assistant",
+  "description": "Full-automation assistant for marsrecipes.com: content creation, SEO auditing, WordPress publishing, social promotion, and scheduled routines.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mars Recipes"
+  }
+}
