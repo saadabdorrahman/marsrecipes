@@ -1,0 +1,13 @@
+{
+  "name": "marsrecipes",
+  "owner": {
+    "name": "saadabdorrahman"
+  },
+  "plugins": [
+    {
+      "name": "mars-assistant",
+      "source": "./mars-assistant",
+      "description": "Full-automation assistant for marsrecipes.com: content creation, SEO auditing, WordPress publishing, social promotion, and scheduled routines."
+    }
+  ]
+}

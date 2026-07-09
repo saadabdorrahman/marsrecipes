@@ -1,0 +1,27 @@
+{
+  "extraKnownMarketplaces": {
+    "marsrecipes": {
+      "source": {
+        "source": "github",
+        "repo": "saadabdorrahman/marsrecipes"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "mars-assistant@marsrecipes": true
+  },
+  "permissions": {
+    "allow": [
+      "Bash(python3 scripts/build_feed.py)",
+      "Bash(python3 scripts/build_sitemap.py)",
+      "Bash(python3 scripts/minify_assets.py)",
+      "Bash(python3 scripts/validate_site.py:*)",
+      "Bash(python3 generate-import.py)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(xmllint:*)",
+      "WebSearch"
+    ]
+  }
+}
