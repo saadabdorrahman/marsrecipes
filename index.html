@@ -44,6 +44,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.min.css">
+  <!-- Homepage-only visual identity ("Midnight & Gold") — scoped under body.home-v2, does not affect any other page -->
+  <link rel="stylesheet" href="css/home.css">
 
   <!-- Preload critical hero images for faster LCP -->
   <link rel="preload" as="image" href="images/spicy-garlic-butter-shrimp.jpg.png" fetchpriority="high">
@@ -82,7 +84,7 @@
   <title>Mars Recipes – Easy, Delicious Recipes the Whole Family Will Love</title>
   <link rel="alternate" type="application/rss+xml" title="Mars Recipes Feed" href="https://www.marsrecipes.com/feed.xml">
 </head>
-<body>
+<body class="home-v2">
 
 <!-- ============================================================
      HEADER
@@ -171,7 +173,7 @@
 
       <div class="hero__stats">
         <div class="hero__stat">
-          <strong>15</strong>
+          <strong>34</strong>
           <span>Recipes</span>
         </div>
         <div class="hero__stat-sep" aria-hidden="true"></div>
@@ -396,7 +398,7 @@
     </div><!-- /.grid-3 -->
 
     <div class="text-center" style="margin-top: 3rem;">
-      <a href="recipes/index.html" class="btn btn--outline">View All 15 Recipes →</a>
+      <a href="recipes/index.html" class="btn btn--outline">View All 34 Recipes →</a>
     </div>
   </div>
 </section>
@@ -466,32 +468,32 @@
       <a href="recipes/index.html?filter=chicken" class="category-tile">
         <img decoding="async" src="images/easy-chicken-tikka-masala.jpg.png" alt="Chicken recipes" width="400" height="300" loading="lazy"
           onerror="this.style.background='#6B3A24'; this.onerror=null;">
-        <span class="category-tile__name">🍗 Chicken<span class="category-tile__count">6 recipes</span></span>
+        <span class="category-tile__name">🍗 Chicken<span class="category-tile__count">12 recipes</span></span>
       </a>
       <a href="recipes/index.html?filter=beef" class="category-tile">
         <img decoding="async" src="images/garlic-butter-steak-bites.jpg.png" alt="Beef recipes" width="400" height="300" loading="lazy"
           onerror="this.style.background='#4A2010'; this.onerror=null;">
-        <span class="category-tile__name">🥩 Beef<span class="category-tile__count">4 recipes</span></span>
+        <span class="category-tile__name">🥩 Beef<span class="category-tile__count">8 recipes</span></span>
       </a>
       <a href="recipes/index.html?filter=seafood" class="category-tile">
         <img decoding="async" src="images/crispy-honey-garlic-salmon.jpg.png" alt="Seafood recipes" width="400" height="300" loading="lazy"
           onerror="this.style.background='#1B3D50'; this.onerror=null;">
-        <span class="category-tile__name">🦐 Seafood<span class="category-tile__count">5 recipes</span></span>
+        <span class="category-tile__name">🦐 Seafood<span class="category-tile__count">8 recipes</span></span>
       </a>
       <a href="recipes/index.html?filter=pasta" class="category-tile">
         <img decoding="async" src="images/creamy-sun-dried-tomato-pasta.jpg.png" alt="Pasta recipes" width="400" height="300" loading="lazy"
           onerror="this.style.background='#7A5C20'; this.onerror=null;">
-        <span class="category-tile__name">🍝 Pasta<span class="category-tile__count">2 recipes</span></span>
+        <span class="category-tile__name">🍝 Pasta<span class="category-tile__count">9 recipes</span></span>
       </a>
       <a href="recipes/index.html?filter=quick" class="category-tile">
         <img decoding="async" src="images/spicy-garlic-butter-shrimp.jpg.png" alt="Quick 30-minute meals" width="400" height="300" loading="lazy"
           onerror="this.style.background='#2B4A35'; this.onerror=null;">
-        <span class="category-tile__name">⚡ Quick Meals<span class="category-tile__count">Under 20 min</span></span>
+        <span class="category-tile__name">⚡ Quick Meals<span class="category-tile__count">22 recipes</span></span>
       </a>
       <a href="recipes/index.html?filter=vegetarian" class="category-tile">
         <img decoding="async" src="images/coconut-chicken-curry.jpg.png" alt="Vegetarian-friendly recipes" width="400" height="300" loading="lazy"
           onerror="this.style.background='#2D3F1E'; this.onerror=null;">
-        <span class="category-tile__name">🥗 Vegetarian<span class="category-tile__count">3 recipes</span></span>
+        <span class="category-tile__name">🥗 Vegetarian<span class="category-tile__count">4 recipes</span></span>
       </a>
     </div>
   </div>
@@ -505,7 +507,7 @@
     <div class="trust-strip__grid">
       <div class="trust-item">
         <span class="trust-item__icon" aria-hidden="true">📖</span>
-        <span class="trust-item__num" data-count="15">15</span>
+        <span class="trust-item__num" data-count="34">34</span>
         <span class="trust-item__label">Tested<br>Recipes</span>
       </div>
       <div class="trust-item">
