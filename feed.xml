@@ -10,7 +10,7 @@
     <copyright>2026 Mars Recipes</copyright>
     <managingEditor>hello@marsrecipes.com (Mars)</managingEditor>
     <webMaster>hello@marsrecipes.com (Mars)</webMaster>
-    <lastBuildDate>Thu, 09 Jul 2026 00:33:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 05:16:00 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <image>
       <url>https://www.marsrecipes.com/images/og-default.svg</url>
@@ -19,6 +19,141 @@
     </image>
     <atom:link href="https://www.marsrecipes.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+  <item>
+    <title>Creamy Tuscan Gnocchi – One Pan, 20 Minutes | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/tuscan-gnocchi.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/tuscan-gnocchi.html</guid>
+    <description>Pillowy gnocchi smothered in a creamy Tuscan-style sauce with sun-dried tomatoes and spinach — this tuscan gnocchi is the easiest impressive dinner.</description>
+    <pubDate>Wed, 08 Jul 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/tuscan-gnocchi.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/tuscan-gnocchi.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Easy Vegan Casserole – Creamy One-Dish Dinner | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/vegan-casserole-dish-recipes.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/vegan-casserole-dish-recipes.html</guid>
+    <description>This creamy vegan casserole bakes roasted vegetables and chickpeas in a silky cashew sauce under golden breadcrumbs — a cozy one-dish dinner everyone loves.</description>
+    <pubDate>Tue, 07 Jul 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/vegan-casserole-dish-recipes.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/vegan-casserole-dish-recipes.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Chicken Penne Pasta – One Skillet, 30 Minutes | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/chicken-penne-pasta.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/chicken-penne-pasta.html</guid>
+    <description>This creamy chicken penne pasta recipe is ready in 30 minutes in one skillet — juicy seared chicken and penne in a garlic-parmesan cream sauce the whole family...</description>
+    <pubDate>Mon, 06 Jul 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/chicken-penne-pasta.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/chicken-penne-pasta.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Homemade Cottage Cheese – Easy Step-by-Step Recipe | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/how-to-make-homemade-cottage-cheese.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/how-to-make-homemade-cottage-cheese.html</guid>
+    <description>Learn how to make homemade cottage cheese from scratch with just milk, vinegar, and salt — no rennet needed. Ready in under an hour.</description>
+    <pubDate>Sun, 05 Jul 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/how-to-make-homemade-cottage-cheese.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/how-to-make-homemade-cottage-cheese.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Ricotta Meatballs – Tender, Juicy, No Breadcrumbs | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/ricotta-meatballs.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/ricotta-meatballs.html</guid>
+    <description>The juiciest ricotta meatballs you’ll ever make — tender inside, golden outside, no breadcrumbs required. Full recipe with make-ahead and freezer tips.</description>
+    <pubDate>Sat, 06 Jun 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/ricotta-meatballs.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/ricotta-meatballs.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>How to Remove Salmon Skin – 3 Easy Methods | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/how-to-remove-skin-from-salmon.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/how-to-remove-skin-from-salmon.html</guid>
+    <description>Learn how to remove skin from salmon in under 60 seconds using the knife, hot-pan, or grill method. Step-by-step photos, pro tips, and no wasted fish.</description>
+    <pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/how-to-remove-skin-from-salmon.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/how-to-remove-skin-from-salmon.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Garlic Butter Chicken Bites – Parmesan Pasta | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/garlic-butter-chicken-bites-with-creamy-parmesan-pasta.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/garlic-butter-chicken-bites-with-creamy-parmesan-pasta.html</guid>
+    <description>These garlic butter chicken bites with creamy parmesan pasta come together in one skillet in just 35 minutes. Juicy golden chicken pieces tossed in a rich,...</description>
+    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/garlic-butter-chicken-bites-with-creamy-parmesan-pasta.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/garlic-butter-chicken-bites-with-creamy-parmesan-pasta.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>25 Dinner Ideas – For Busy Weeknights | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/25-dinner-ideas.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/25-dinner-ideas.html</guid>
+    <description>Stuck on what to cook? These 25 dinner ideas cover chicken, beef, seafood, pasta, and budget meals — all easy enough for any weeknight. Find your next favorite...</description>
+    <pubDate>Fri, 22 May 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/25-dinner-ideas.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/25-dinner-ideas.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>25 High-Protein Meals – For Weight Loss | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/high-protein-meals.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/high-protein-meals.html</guid>
+    <description>25 high protein meals for weight loss and muscle gain — covering breakfast, lunch, dinner, and meal prep. Each recipe hits 30g+ protein with full instructions...</description>
+    <pubDate>Sun, 17 May 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/high-protein-meals.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/high-protein-meals.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Crockpot Marry Me Chicken Pasta – Easy Dinner | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/crockpot-marry-me-chicken-pasta.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/crockpot-marry-me-chicken-pasta.html</guid>
+    <description>This crockpot marry me chicken pasta is the ultimate set-it-and-forget-it dinner! Juicy shredded chicken in a creamy sun-dried tomato parmesan sauce. Ready in...</description>
+    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/crockpot-marry-me-chicken-pasta.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/crockpot-marry-me-chicken-pasta.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Cajun Chicken Pasta – Ready in 30 Minutes | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/cajun-chicken-pasta.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/cajun-chicken-pasta.html</guid>
+    <description>Bold cajun-spiced chicken in a rich, smoky cream sauce tossed with pasta — this cajun chicken pasta is better than any restaurant version.</description>
+    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/cajun-chicken-pasta.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/cajun-chicken-pasta.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Marry Me Shrimp – Ready in 20 Minutes | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/marry-me-shrimp.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/marry-me-shrimp.html</guid>
+    <description>Juicy shrimp in a silky sun-dried tomato cream sauce — this 20-minute marry me shrimp will have everyone asking for seconds.</description>
+    <pubDate>Sat, 02 May 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/marry-me-shrimp.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/marry-me-shrimp.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Creamy Garlic Parmesan Pasta – Ready in 15 Minutes | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/creamy-garlic-parmesan-pasta.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/creamy-garlic-parmesan-pasta.html</guid>
+    <description>Silky garlic parmesan sauce over fettuccine in 15 minutes flat, made from pantry staples. No cream-jar shortcuts — just butter, garlic, cream and real parmesan.</description>
+    <pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/creamy-garlic-parmesan-pasta.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/creamy-garlic-parmesan-pasta.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Marry Me Chicken Pasta – Ready in 30 Minutes | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/marry-me-chicken-pasta.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/marry-me-chicken-pasta.html</guid>
+    <description>This marry me chicken pasta is the viral one-pot dinner everyone is making — tender chicken and penne in a creamy sun-dried tomato parmesan sauce, ready in 30...</description>
+    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/marry-me-chicken-pasta.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/marry-me-chicken-pasta.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Baked Feta Pasta – Ready in 40 Minutes | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/baked-feta-pasta.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/baked-feta-pasta.html</guid>
+    <description>The TikTok-famous baked feta pasta: a whole block of feta roasted with burst cherry tomatoes, garlic and olive oil, mashed into an instant creamy sauce.</description>
+    <pubDate>Sun, 12 Apr 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/baked-feta-pasta.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/baked-feta-pasta.jpg.png" medium="image"/>
+  </item>
   <item>
     <title>Easy Coconut Chicken Curry – Ready in 35 Minutes | Mars Recipes</title>
     <link>https://www.marsrecipes.com/recipes/coconut-chicken-curry.html</link>
@@ -101,6 +236,15 @@
     <media:content url="https://www.marsrecipes.com/images/creamy-sun-dried-tomato-pasta.jpg.png" medium="image"/>
   </item>
   <item>
+    <title>Korean Ground Beef Bowl – Ready in 15 Minutes | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/korean-ground-beef-bowl.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/korean-ground-beef-bowl.html</guid>
+    <description>Sweet-savory Korean-inspired ground beef over steamed rice in 15 minutes — garlicky, gingery, glazed in soy and honey, and endlessly meal-preppable.</description>
+    <pubDate>Tue, 27 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/korean-ground-beef-bowl.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/korean-ground-beef-bowl.jpg.png" medium="image"/>
+  </item>
+  <item>
     <title>Garlic Butter Steak Bites – Ready in 15 Minutes | Mars Recipes</title>
     <link>https://www.marsrecipes.com/recipes/garlic-butter-steak-bites.html</link>
     <guid isPermaLink="true">https://www.marsrecipes.com/recipes/garlic-butter-steak-bites.html</guid>
@@ -117,6 +261,24 @@
     <pubDate>Thu, 22 Jan 2026 09:00:00 +0000</pubDate>
     <enclosure url="https://www.marsrecipes.com/images/beef-broccoli-stir-fry-cooking.jpg.png" type="image/png" length="0"/>
     <media:content url="https://www.marsrecipes.com/images/beef-broccoli-stir-fry-cooking.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Smash Burger Tacos – Big Mac Flavor, Taco Style | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/smash-burger-tacos.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/smash-burger-tacos.html</guid>
+    <description>The viral smash burger taco: seasoned beef smashed onto a flour tortilla, seared crispy, and finished with melted cheese, shredded lettuce and a tangy special sauce.</description>
+    <pubDate>Thu, 22 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/smash-burger-tacos.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/smash-burger-tacos.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Garlic Butter Salmon Bites – Ready in 11 Minutes | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/garlic-butter-salmon-bites.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/garlic-butter-salmon-bites.html</guid>
+    <description>Crispy-edged salmon cubes basted in garlic butter, on the table in 10 minutes. The trending salmon bites recipe that makes weeknight fish feel like a treat.</description>
+    <pubDate>Sat, 17 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/garlic-butter-salmon-bites.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/garlic-butter-salmon-bites.jpg.png" medium="image"/>
   </item>
   <item>
     <title>One-Pan Honey Butter Chicken – Ready in 25 Minutes | Mars Recipes</title>
@@ -137,6 +299,15 @@
     <media:content url="https://www.marsrecipes.com/images/crispy-honey-garlic-salmon.jpg.png" medium="image"/>
   </item>
   <item>
+    <title>Crispy Bang Bang Shrimp – Better Than Takeout | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/bang-bang-shrimp.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/bang-bang-shrimp.html</guid>
+    <description>Crispy fried shrimp tossed in the legendary bang bang sauce — creamy, sweet and spicy in every bite. A 25-minute homemade version that beats the restaurant original.</description>
+    <pubDate>Mon, 12 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/bang-bang-shrimp.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/bang-bang-shrimp.jpg.png" medium="image"/>
+  </item>
+  <item>
     <title>One-Pan Beef Shawarma Bowl – Better Than Takeout | Mars Recipes</title>
     <link>https://www.marsrecipes.com/recipes/one-pan-beef-shawarma-bowl.html</link>
     <guid isPermaLink="true">https://www.marsrecipes.com/recipes/one-pan-beef-shawarma-bowl.html</guid>
@@ -146,6 +317,15 @@
     <media:content url="https://www.marsrecipes.com/images/one-pan-beef-shawarma-bowl.png" medium="image"/>
   </item>
   <item>
+    <title>Honey Sriracha Salmon Bowls – Ready in 20 Minutes | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/honey-sriracha-salmon-bowls.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/honey-sriracha-salmon-bowls.html</guid>
+    <description>Caramelized honey-sriracha salmon over rice with crunchy cucumber and creamy avocado — the trending salmon bowl that tastes like a restaurant lunch in 20 minutes.</description>
+    <pubDate>Wed, 07 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/honey-sriracha-salmon-bowls.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/honey-sriracha-salmon-bowls.jpg.png" medium="image"/>
+  </item>
+  <item>
     <title>Easy Creamy Garlic Chicken – Ready in 30 Minutes | Mars Recipes</title>
     <link>https://www.marsrecipes.com/recipes/easy-creamy-garlic-chicken.html</link>
     <guid isPermaLink="true">https://www.marsrecipes.com/recipes/easy-creamy-garlic-chicken.html</guid>
@@ -153,6 +333,24 @@
     <pubDate>Tue, 06 Jan 2026 09:00:00 +0000</pubDate>
     <enclosure url="https://www.marsrecipes.com/images/easy-creamy-garlic-chicken.jpg.png" type="image/png" length="0"/>
     <media:content url="https://www.marsrecipes.com/images/easy-creamy-garlic-chicken.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Cowboy Butter Chicken Tenders – 22-Minute Dinner | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/cowboy-butter-chicken-tenders.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/cowboy-butter-chicken-tenders.html</guid>
+    <description>Juicy golden chicken tenders served with viral cowboy butter: a melted garlic-herb-lemon dipping sauce with a chili kick that makes everything taste better.</description>
+    <pubDate>Fri, 02 Jan 2026 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/cowboy-butter-chicken-tenders.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/cowboy-butter-chicken-tenders.jpg.png" medium="image"/>
+  </item>
+  <item>
+    <title>Birria-Style Beef Tacos – With Dipping Consomme | Mars Recipes</title>
+    <link>https://www.marsrecipes.com/recipes/birria-style-beef-tacos.html</link>
+    <guid isPermaLink="true">https://www.marsrecipes.com/recipes/birria-style-beef-tacos.html</guid>
+    <description>Birria-style tacos made weeknight-friendly: beef braised in a rich guajillo-tomato broth, stuffed into crisped tortillas with melty cheese, served with consommé...</description>
+    <pubDate>Sun, 28 Dec 2025 09:00:00 +0000</pubDate>
+    <enclosure url="https://www.marsrecipes.com/images/birria-style-beef-tacos.jpg.png" type="image/png" length="0"/>
+    <media:content url="https://www.marsrecipes.com/images/birria-style-beef-tacos.jpg.png" medium="image"/>
   </item>
   </channel>
 </rss>

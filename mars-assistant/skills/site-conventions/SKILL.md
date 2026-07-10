@@ -20,7 +20,15 @@ marsrecipes.com is a **static HTML site** (the repo root is the deployable site)
 
 - URL base: `https://www.marsrecipes.com` (always `www`). Canonical URLs end in `.html` except `/` and `/recipes/`.
 - Categories (used as `data-category` on cards in `recipes/index.html`, in pillar mapping, and in `generate-import.py` `cat_map`): `chicken`, `beef`, `seafood`, `pasta`, `quick`, `vegetarian`. A card may carry several, space-separated.
+  - `meal-prep` was added as a `data-category` value in the 2026-07 live-site sync (mirrors the live WordPress "Meal Prep" `recipe_category` term). It is newer and live-only: there is no dedicated filter-bar button, pillar page, or `generate-import.py` `cat_map` value for it yet — recipes tagged `meal-prep` still need a real `chicken`/`beef`/`seafood`/`pasta` category for the WXR export. A human should decide whether `meal-prep` warrants its own filter/pillar page as more recipes accumulate.
+- As of the 2026-07 sync the site has 37 recipe-type pages plus 3 guide-article pages (40 total under `recipes/`).
 - Niche: easy weeknight dinners, total time ≤ ~40 minutes, US audience, US measurements first (metric in parentheses).
+
+### Page types under `recipes/`
+
+Most pages under `recipes/` are **recipe pages** (see `references/recipe-page-template.md`): they have an `id="recipe-card"` block, `Recipe` JSON-LD, and a `FAQPage` JSON-LD.
+
+A smaller set are **guide articles** — roundup or how-to content that isn't a single dish (no ingredients/instructions to structure as a recipe). They reuse the same header/breadcrumb/footer/head scaffolding as recipe pages but use `Article` JSON-LD (`headline`, `image`, `author`, `datePublished`, `dateModified`, `description`) instead of `Recipe` JSON-LD, and have no `recipe-card`, no nutrition table, and no reviews section. They still carry `FAQPage` JSON-LD when the source content has FAQs. Examples: `recipes/25-dinner-ideas.html`, `recipes/high-protein-meals.html`, `recipes/how-to-remove-skin-from-salmon.html`. `scripts/validate_site.py` tells the two apart by checking for `id="recipe-card"` in the page — guide articles are exempt from the Recipe-schema requirement but still get title/meta/canonical/link/image/FAQ checks.
 
 ## Images
 
